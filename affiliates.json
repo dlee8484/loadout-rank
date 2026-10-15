@@ -1,0 +1,3 @@
+{
+ "_readme": "Add {\"Tool Name\": {\"url\": \"<your real affiliate URL>\"}} to enable a labeled rel=sponsored link. Empty = no affiliate links. Do not invent IDs. Then run build_seo.py."
+}
