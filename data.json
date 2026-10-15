@@ -42,6 +42,46 @@
    "score": 81
   },
   {
+   "cat": "Coding agents & AI IDEs",
+   "rank": 6,
+   "name": "Cline",
+   "why": "Open-source coding agent (VS Code) with Plan/Act modes and MCP; model-agnostic. Vendor claims 11M+ developers.",
+   "url": "https://cline.bot",
+   "score": 79
+  },
+  {
+   "cat": "Coding agents & AI IDEs",
+   "rank": 7,
+   "name": "Gemini CLI",
+   "why": "Google's open-source terminal agent for Gemini models; free to inspect on GitHub.",
+   "url": "https://github.com/google-gemini/gemini-cli",
+   "score": 78
+  },
+  {
+   "cat": "Coding agents & AI IDEs",
+   "rank": 8,
+   "name": "Aider",
+   "why": "Open-source AI pair programming in your terminal; also publishes an LLM code-editing leaderboard.",
+   "url": "https://aider.chat",
+   "score": 77
+  },
+  {
+   "cat": "Coding agents & AI IDEs",
+   "rank": 9,
+   "name": "Zed",
+   "why": "High-performance multiplayer code editor from the creators of Atom and Tree-sitter; check its current AI features.",
+   "url": "https://zed.dev",
+   "score": 76
+  },
+  {
+   "cat": "Coding agents & AI IDEs",
+   "rank": 10,
+   "name": "Devin",
+   "why": "Cognition's autonomous software-engineer agent with parallel cloud agents, aimed at engineering teams.",
+   "url": "https://devin.ai",
+   "score": 75
+  },
+  {
    "cat": "Vibe coding & app builders",
    "rank": 1,
    "name": "Lovable",
@@ -80,6 +120,46 @@
    "why": "Newer agent-first IDE from Google; one to watch.",
    "url": "https://antigravity.google",
    "score": 78
+  },
+  {
+   "cat": "Vibe coding & app builders",
+   "rank": 6,
+   "name": "Base44",
+   "why": "No-code AI platform that turns a described idea into a working app or website.",
+   "url": "https://base44.com",
+   "score": 77
+  },
+  {
+   "cat": "Vibe coding & app builders",
+   "rank": 7,
+   "name": "Figma Make",
+   "why": "Prompt-to-prototype/app builder inside the Figma ecosystem; natural fit for design-led teams.",
+   "url": "https://www.figma.com/make/",
+   "score": 76
+  },
+  {
+   "cat": "Vibe coding & app builders",
+   "rank": 8,
+   "name": "Emergent",
+   "why": "Chat-driven builder for web and mobile apps using AI agents.",
+   "url": "https://emergent.sh",
+   "score": 75
+  },
+  {
+   "cat": "Vibe coding & app builders",
+   "rank": 9,
+   "name": "Bubble",
+   "why": "Established no-code platform now with an AI app builder plus a visual editor for design, database and logic.",
+   "url": "https://bubble.io",
+   "score": 74
+  },
+  {
+   "cat": "Vibe coding & app builders",
+   "rank": 10,
+   "name": "Anything",
+   "why": "AI agent that builds sites, apps and tools from a description (formerly create.xyz).",
+   "url": "https://www.create.xyz",
+   "score": 73
   },
   {
    "cat": "AI agents & automation",
@@ -122,6 +202,46 @@
    "score": 80
   },
   {
+   "cat": "AI agents & automation",
+   "rank": 6,
+   "name": "CrewAI",
+   "why": "Multi-agent framework and platform; vendor pitch is 'the leading multi-agent platform'.",
+   "url": "https://www.crewai.com",
+   "score": 79
+  },
+  {
+   "cat": "AI agents & automation",
+   "rank": 7,
+   "name": "OpenAI Agents SDK",
+   "why": "OpenAI's open-source Python SDK for building agents with tools, handoffs and tracing.",
+   "url": "https://openai.github.io/openai-agents-python/",
+   "score": 78
+  },
+  {
+   "cat": "AI agents & automation",
+   "rank": 8,
+   "name": "LlamaIndex",
+   "why": "Agent and document-workflow toolkit; its LlamaParse product focuses on document OCR.",
+   "url": "https://www.llamaindex.ai",
+   "score": 77
+  },
+  {
+   "cat": "AI agents & automation",
+   "rank": 9,
+   "name": "Dify",
+   "why": "Visual canvas for agentic workflows; deployable on cloud, in your VPC, or self-hosted.",
+   "url": "https://dify.ai",
+   "score": 76
+  },
+  {
+   "cat": "AI agents & automation",
+   "rank": 10,
+   "name": "Zapier",
+   "why": "No-code automation platform that adds AI to workflows, as agents, or as customer chatbots.",
+   "url": "https://zapier.com/ai",
+   "score": 75
+  },
+  {
    "cat": "Game development",
    "rank": 1,
    "name": "Unity AI",
@@ -160,6 +280,46 @@
    "why": "Text/image-to-3D assets for game pipelines.",
    "url": "https://www.meshy.ai",
    "score": 79
+  },
+  {
+   "cat": "Game development",
+   "rank": 6,
+   "name": "Scenario",
+   "why": "Image, video, 3D and audio generation pipelines for game and creative production assets.",
+   "url": "https://www.scenario.com",
+   "score": 77
+  },
+  {
+   "cat": "Game development",
+   "rank": 7,
+   "name": "Layer",
+   "why": "Team creative platform: 300+ models (vendor claim), trainable on your own art style, with workflow automation.",
+   "url": "https://www.layer.ai",
+   "score": 76
+  },
+  {
+   "cat": "Game development",
+   "rank": 8,
+   "name": "Tripo",
+   "why": "Text- and image-to-3D model generator aimed at games, 3D printing and animation.",
+   "url": "https://www.tripo3d.ai",
+   "score": 75
+  },
+  {
+   "cat": "Game development",
+   "rank": 9,
+   "name": "Inworld",
+   "why": "Realtime voice and character AI for consumer apps, including interactive characters.",
+   "url": "https://inworld.ai",
+   "score": 74
+  },
+  {
+   "cat": "Game development",
+   "rank": 10,
+   "name": "Convai",
+   "why": "Conversational AI for NPCs and virtual-world characters in games and XR.",
+   "url": "https://convai.com",
+   "score": 73
   },
   {
    "cat": "Chat assistants & general AI",
@@ -202,6 +362,46 @@
    "score": 82
   },
   {
+   "cat": "Chat assistants & general AI",
+   "rank": 6,
+   "name": "Perplexity",
+   "why": "Answer engine centered on cited, web-wide research; also offers developer APIs.",
+   "url": "https://www.perplexity.ai",
+   "score": 80
+  },
+  {
+   "cat": "Chat assistants & general AI",
+   "rank": 7,
+   "name": "Microsoft Copilot",
+   "why": "Microsoft's free-to-start assistant across web and Windows; strongest if you live in Microsoft 365.",
+   "url": "https://copilot.microsoft.com",
+   "score": 79
+  },
+  {
+   "cat": "Chat assistants & general AI",
+   "rank": 8,
+   "name": "Mistral Vibe (formerly Le Chat)",
+   "why": "European lab's chat and coding-agent app (Le Chat was renamed Vibe).",
+   "url": "https://mistral.ai/products/vibe/",
+   "score": 77
+  },
+  {
+   "cat": "Chat assistants & general AI",
+   "rank": 9,
+   "name": "DeepSeek",
+   "why": "Lab that open-sources frontier models such as DeepSeek-V4 and offers a chat app and API.",
+   "url": "https://www.deepseek.com",
+   "score": 76
+  },
+  {
+   "cat": "Chat assistants & general AI",
+   "rank": 10,
+   "name": "Meta AI",
+   "why": "Meta's AI assistant; limited verification because the site blocks automated checks.",
+   "url": "https://www.meta.ai",
+   "score": 74
+  },
+  {
    "cat": "Image, video & music creation",
    "rank": 1,
    "name": "Runway",
@@ -240,6 +440,46 @@
    "why": "Best-known voice/TTS and audio generation.",
    "url": "https://elevenlabs.io",
    "score": 83
+  },
+  {
+   "cat": "Image, video & music creation",
+   "rank": 6,
+   "name": "Midjourney",
+   "why": "Well-known image generator; its site blocks automated link checks, so we could not verify details.",
+   "url": "https://www.midjourney.com",
+   "score": 82
+  },
+  {
+   "cat": "Image, video & music creation",
+   "rank": 7,
+   "name": "Adobe Firefly",
+   "why": "Adobe's creative studio with 30+ models (vendor claim) for images, video and audio.",
+   "url": "https://firefly.adobe.com",
+   "score": 81
+  },
+  {
+   "cat": "Image, video & music creation",
+   "rank": 8,
+   "name": "Luma",
+   "why": "Video and image creation built on Luma's Ray and Uni models, with creative agents.",
+   "url": "https://lumalabs.ai",
+   "score": 80
+  },
+  {
+   "cat": "Image, video & music creation",
+   "rank": 9,
+   "name": "Ideogram",
+   "why": "Image generator; its site blocks automated link checks, so we could not verify details.",
+   "url": "https://ideogram.ai",
+   "score": 79
+  },
+  {
+   "cat": "Image, video & music creation",
+   "rank": 10,
+   "name": "Pika",
+   "why": "AI creative tools; vendor pitch is 'built for creatives'.",
+   "url": "https://pika.art",
+   "score": 77
   },
   {
    "cat": "Local & open-source AI",
@@ -282,6 +522,46 @@
    "score": 83
   },
   {
+   "cat": "Local & open-source AI",
+   "rank": 6,
+   "name": "llama.cpp",
+   "why": "The C/C++ inference engine under many local-LLM apps (LM Studio cites it).",
+   "url": "https://github.com/ggml-org/llama.cpp",
+   "score": 82
+  },
+  {
+   "cat": "Local & open-source AI",
+   "rank": 7,
+   "name": "Open WebUI",
+   "why": "Self-hosted AI interface that connects to many models, local or hosted.",
+   "url": "https://openwebui.com",
+   "score": 81
+  },
+  {
+   "cat": "Local & open-source AI",
+   "rank": 8,
+   "name": "vLLM",
+   "why": "High-throughput, memory-efficient LLM serving engine for production GPUs.",
+   "url": "https://vllm.ai",
+   "score": 80
+  },
+  {
+   "cat": "Local & open-source AI",
+   "rank": 9,
+   "name": "Jan",
+   "why": "Open-source ChatGPT alternative that runs models locally or connects to cloud models.",
+   "url": "https://www.jan.ai",
+   "score": 79
+  },
+  {
+   "cat": "Local & open-source AI",
+   "rank": 10,
+   "name": "Unsloth",
+   "why": "Open-source desktop UI for training and running open models on your own hardware.",
+   "url": "https://unsloth.ai",
+   "score": 78
+  },
+  {
    "cat": "Model leaderboards & discovery",
    "rank": 1,
    "name": "LMArena",
@@ -320,6 +600,46 @@
    "why": "Live usage rankings by model/app.",
    "url": "https://openrouter.ai",
    "score": 82
+  },
+  {
+   "cat": "Model leaderboards & discovery",
+   "rank": 6,
+   "name": "SWE-bench",
+   "why": "Standard benchmark and leaderboards for AI software-engineering tasks.",
+   "url": "https://www.swebench.com",
+   "score": 80
+  },
+  {
+   "cat": "Model leaderboards & discovery",
+   "rank": 7,
+   "name": "Scale Labs Leaderboards",
+   "why": "Expert-driven LLM benchmarks across coding, reasoning and more.",
+   "url": "https://labs.scale.com/leaderboard",
+   "score": 79
+  },
+  {
+   "cat": "Model leaderboards & discovery",
+   "rank": 8,
+   "name": "Epoch AI",
+   "why": "Research institute tracking AI trends; good for compute, data and capability context.",
+   "url": "https://epoch.ai",
+   "score": 78
+  },
+  {
+   "cat": "Model leaderboards & discovery",
+   "rank": 9,
+   "name": "LiveBench",
+   "why": "Contamination-resistant benchmark; LiveBench 2.0 grades long-horizon real work output.",
+   "url": "https://livebench.ai",
+   "score": 77
+  },
+  {
+   "cat": "Model leaderboards & discovery",
+   "rank": 10,
+   "name": "Aider LLM Leaderboards",
+   "why": "Benchmarks of LLM code-editing skill from the Aider project.",
+   "url": "https://aider.chat/docs/leaderboards/",
+   "score": 76
   }
  ],
  "releases": [
