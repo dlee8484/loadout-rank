@@ -1,0 +1,399 @@
+{
+ "updated": "Oct 15, 2026",
+ "tools": [
+  {
+   "cat": "Coding agents & AI IDEs",
+   "rank": 1,
+   "name": "Claude Code",
+   "why": "Top of Oct 2026 power rankings (LogRocket); strongest on multi-file/complex work.",
+   "url": "https://claude.com/product/claude-code",
+   "score": 93
+  },
+  {
+   "cat": "Coding agents & AI IDEs",
+   "rank": 2,
+   "name": "Cursor",
+   "why": "Best full AI-first IDE; now a SpaceXAI subsidiary (closed Aug 2026).",
+   "url": "https://cursor.com",
+   "score": 90
+  },
+  {
+   "cat": "Coding agents & AI IDEs",
+   "rank": 3,
+   "name": "OpenAI Codex",
+   "why": "Strong async/hands-off tasks; CLI, IDE, web; included with ChatGPT plans.",
+   "url": "https://openai.com/codex",
+   "score": 88
+  },
+  {
+   "cat": "Coding agents & AI IDEs",
+   "rank": 4,
+   "name": "GitHub Copilot",
+   "why": "Safest enterprise pick; multi-model, widest IDE support, from $10/mo.",
+   "url": "https://github.com/features/copilot",
+   "score": 85
+  },
+  {
+   "cat": "Coding agents & AI IDEs",
+   "rank": 5,
+   "name": "OpenCode",
+   "why": "Open-source, model-agnostic terminal agent; ranked #2 by LogRocket.",
+   "url": "https://opencode.ai",
+   "score": 81
+  },
+  {
+   "cat": "Vibe coding & app builders",
+   "rank": 1,
+   "name": "Lovable",
+   "why": "Popular prompt-to-full-stack-app builder with hosting built in.",
+   "url": "https://lovable.dev",
+   "score": 90
+  },
+  {
+   "cat": "Vibe coding & app builders",
+   "rank": 2,
+   "name": "Bolt.new",
+   "why": "Browser-based app builder, fast from prompt to deployed app.",
+   "url": "https://bolt.new",
+   "score": 87
+  },
+  {
+   "cat": "Vibe coding & app builders",
+   "rank": 3,
+   "name": "v0 by Vercel",
+   "why": "Best for polished React/Next.js UI and Vercel deploys.",
+   "url": "https://v0.app",
+   "score": 85
+  },
+  {
+   "cat": "Vibe coding & app builders",
+   "rank": 4,
+   "name": "Replit",
+   "why": "All-in-one cloud IDE + agent + hosting; Core $20/mo.",
+   "url": "https://replit.com",
+   "score": 83
+  },
+  {
+   "cat": "Vibe coding & app builders",
+   "rank": 5,
+   "name": "Google Antigravity",
+   "why": "Newer agent-first IDE from Google; one to watch.",
+   "url": "https://antigravity.google",
+   "score": 78
+  },
+  {
+   "cat": "AI agents & automation",
+   "rank": 1,
+   "name": "LangGraph",
+   "why": "Leading for durable, stateful, interruptible Python agent graphs.",
+   "url": "https://langchain-ai.github.io/langgraph/",
+   "score": 91
+  },
+  {
+   "cat": "AI agents & automation",
+   "rank": 2,
+   "name": "Pydantic AI",
+   "why": "Typed Python agents with durable execution backends.",
+   "url": "https://ai.pydantic.dev",
+   "score": 88
+  },
+  {
+   "cat": "AI agents & automation",
+   "rank": 3,
+   "name": "Mastra",
+   "why": "Strongest TypeScript-first agent framework (agents, workflows, evals).",
+   "url": "https://mastra.ai",
+   "score": 86
+  },
+  {
+   "cat": "AI agents & automation",
+   "rank": 4,
+   "name": "Microsoft Agent Framework",
+   "why": "1.0 since Apr 2026; successor to AutoGen/Semantic Kernel; .NET + Python.",
+   "url": "https://github.com/microsoft/agent-framework",
+   "score": 84
+  },
+  {
+   "cat": "AI agents & automation",
+   "rank": 5,
+   "name": "n8n",
+   "why": "Low-code workflow automation with an AI Agent node.",
+   "url": "https://n8n.io",
+   "score": 80
+  },
+  {
+   "cat": "Game development",
+   "rank": 1,
+   "name": "Unity AI",
+   "why": "Best inside existing Unity 6 projects; open beta since May 2026.",
+   "url": "https://unity.com/ai",
+   "score": 89
+  },
+  {
+   "cat": "Game development",
+   "rank": 2,
+   "name": "Rosebud AI",
+   "why": "Clearest prompt-to-playable browser game tool with published pricing.",
+   "url": "https://rosebud.ai",
+   "score": 86
+  },
+  {
+   "cat": "Game development",
+   "rank": 3,
+   "name": "GDevelop",
+   "why": "Cheapest route to an exportable game you own; open-source engine with AI.",
+   "url": "https://gdevelop.io",
+   "score": 84
+  },
+  {
+   "cat": "Game development",
+   "rank": 4,
+   "name": "Ludo.ai",
+   "why": "Game-specific ideation, sprite, art and audio generation.",
+   "url": "https://www.ludo.ai",
+   "score": 82
+  },
+  {
+   "cat": "Game development",
+   "rank": 5,
+   "name": "Meshy",
+   "why": "Text/image-to-3D assets for game pipelines.",
+   "url": "https://www.meshy.ai",
+   "score": 79
+  },
+  {
+   "cat": "Chat assistants & general AI",
+   "rank": 1,
+   "name": "ChatGPT",
+   "why": "Broadest feature set and user base.",
+   "url": "https://chatgpt.com",
+   "score": 93
+  },
+  {
+   "cat": "Chat assistants & general AI",
+   "rank": 2,
+   "name": "Claude",
+   "why": "Top for writing quality, long context and coding.",
+   "url": "https://claude.com",
+   "score": 91
+  },
+  {
+   "cat": "Chat assistants & general AI",
+   "rank": 3,
+   "name": "Gemini",
+   "why": "Deep Google ecosystem integration and multimodal strength.",
+   "url": "https://gemini.google.com",
+   "score": 88
+  },
+  {
+   "cat": "Chat assistants & general AI",
+   "rank": 4,
+   "name": "Grok",
+   "why": "Real-time X data access; xAI's assistant.",
+   "url": "https://grok.com",
+   "score": 84
+  },
+  {
+   "cat": "Chat assistants & general AI",
+   "rank": 5,
+   "name": "NotebookLM",
+   "why": "Best for source-grounded study/research notebooks and audio overviews.",
+   "url": "https://notebooklm.google",
+   "score": 82
+  },
+  {
+   "cat": "Image, video & music creation",
+   "rank": 1,
+   "name": "Runway",
+   "why": "Established pro video generation/editing suite.",
+   "url": "https://runwayml.com",
+   "score": 90
+  },
+  {
+   "cat": "Image, video & music creation",
+   "rank": 2,
+   "name": "Google Flow",
+   "why": "Google's AI filmmaking tool built on its video models.",
+   "url": "https://labs.google/flow",
+   "score": 88
+  },
+  {
+   "cat": "Image, video & music creation",
+   "rank": 3,
+   "name": "Kling AI",
+   "why": "Popular high-quality video generator.",
+   "url": "https://klingai.com",
+   "score": 86
+  },
+  {
+   "cat": "Image, video & music creation",
+   "rank": 4,
+   "name": "Suno",
+   "why": "Leading text-to-song generator.",
+   "url": "https://suno.com",
+   "score": 84
+  },
+  {
+   "cat": "Image, video & music creation",
+   "rank": 5,
+   "name": "ElevenLabs",
+   "why": "Best-known voice/TTS and audio generation.",
+   "url": "https://elevenlabs.io",
+   "score": 83
+  },
+  {
+   "cat": "Local & open-source AI",
+   "rank": 1,
+   "name": "ComfyUI",
+   "why": "Top open-source node-based image/video/audio engine (~137k stars, Archestack).",
+   "url": "https://www.comfy.org",
+   "score": 92
+  },
+  {
+   "cat": "Local & open-source AI",
+   "rank": 2,
+   "name": "Ollama",
+   "why": "Simplest way to run open LLMs locally.",
+   "url": "https://ollama.com",
+   "score": 90
+  },
+  {
+   "cat": "Local & open-source AI",
+   "rank": 3,
+   "name": "LM Studio",
+   "why": "Friendly desktop GUI for local models.",
+   "url": "https://lmstudio.ai",
+   "score": 87
+  },
+  {
+   "cat": "Local & open-source AI",
+   "rank": 4,
+   "name": "Hugging Face",
+   "why": "The hub for open models, datasets and Spaces.",
+   "url": "https://huggingface.co",
+   "score": 86
+  },
+  {
+   "cat": "Local & open-source AI",
+   "rank": 5,
+   "name": "OpenRouter",
+   "why": "One API across many hosted models; handy for routing/pricing.",
+   "url": "https://openrouter.ai",
+   "score": 83
+  },
+  {
+   "cat": "Model leaderboards & discovery",
+   "rank": 1,
+   "name": "LMArena",
+   "why": "Crowd-voted model leaderboard.",
+   "url": "https://lmarena.ai",
+   "score": 91
+  },
+  {
+   "cat": "Model leaderboards & discovery",
+   "rank": 2,
+   "name": "Artificial Analysis",
+   "why": "Independent speed/price/quality benchmarks.",
+   "url": "https://artificialanalysis.ai",
+   "score": 89
+  },
+  {
+   "cat": "Model leaderboards & discovery",
+   "rank": 3,
+   "name": "Model Context Protocol",
+   "why": "The standard for connecting tools to agents; follow its spec updates.",
+   "url": "https://modelcontextprotocol.io",
+   "score": 87
+  },
+  {
+   "cat": "Model leaderboards & discovery",
+   "rank": 4,
+   "name": "Hugging Face",
+   "why": "Trending models and papers.",
+   "url": "https://huggingface.co",
+   "score": 85
+  },
+  {
+   "cat": "Model leaderboards & discovery",
+   "rank": 5,
+   "name": "OpenRouter",
+   "why": "Live usage rankings by model/app.",
+   "url": "https://openrouter.ai",
+   "score": 82
+  }
+ ],
+ "releases": [
+  {
+   "date": "2026-10-13",
+   "org": "Google",
+   "title": "Gemini 4 Argon",
+   "summary": "Google's latest frontier model, aimed at hard coding, science and agentic work with a 1M-token limit. Available via API, Antigravity (Ultra), and the Gemini app (Ultra/Pro). Intro price $2/$10 per 1M tokens until Nov 30.",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+   "type": "Model"
+  },
+  {
+   "date": "2026-10-07",
+   "org": "Anthropic",
+   "title": "Claude Haiku 5.5",
+   "summary": "Anthropic's cheapest, fastest small model. Sonnet 5.5 cache reads also halved in price, and Max/Team plans get monthly API credits.",
+   "url": "https://www.anthropic.com/claude-haiku-5-5",
+   "type": "Model"
+  },
+  {
+   "date": "2026-10-07",
+   "org": "OpenAI",
+   "title": "GPT-6 with Intelligent UI in ChatGPT",
+   "summary": "GPT-6 Sol (paid) and Luna (Free/Go) arrive in ChatGPT Chat, answering with interactive UIs. Rollout to paid tiers started Oct 7, Free/Go the next day.",
+   "url": "https://openai.com/index/gpt-6-for-everyone/",
+   "type": "Chat"
+  },
+  {
+   "date": "2026-09-29",
+   "org": "OpenAI",
+   "title": "dots (cloud-computer agents)",
+   "summary": "Always-on personal agents rolling out in ChatGPT to Pro and Business Premium users in eligible markets.",
+   "url": "https://openai.com/index/introducing-dots/",
+   "type": "Agents"
+  },
+  {
+   "date": "2026-09-22",
+   "org": "Anthropic",
+   "title": "Claude Opus 5.5",
+   "summary": "First of the Claude 5.5 family: long-running agentic coding and knowledge work, $4/$20 per 1M tokens, 1M context. Fast mode available in Claude Code.",
+   "url": "https://www.anthropic.com/claude-opus-5-5",
+   "type": "Model"
+  },
+  {
+   "date": "2026-09-21",
+   "org": "xAI (SpaceXAI)",
+   "title": "Grok 4.7",
+   "summary": "Flagship for coding and knowledge work; 500k context, $2/$6 per 1M tokens on the API. Available in Cursor and Grok Build.",
+   "url": "https://x.ai/news/grok-4-7",
+   "type": "Model"
+  },
+  {
+   "date": "2026-09-10",
+   "org": "OpenAI",
+   "title": "Agents API (public beta)",
+   "summary": "Brings the Codex harness and infrastructure to developers via API; pay only for tokens and tools used.",
+   "url": "https://openai.com/index/introducing-the-agents-api/",
+   "type": "Dev tools"
+  },
+  {
+   "date": "2026-09-08",
+   "org": "Meta",
+   "title": "Muse personal agent",
+   "summary": "Meta's personal AI agent for everyday tasks, in a Muse app, WhatsApp and the web. Date per secondary coverage; link is AP News.",
+   "url": "https://apnews.com/article/meta-muse-ai-agent-3a4572eb4cf4e95d8a0dfdad6e6ca065",
+   "type": "Agents"
+  },
+  {
+   "date": "2026-09",
+   "org": "Cursor",
+   "title": "Projects (beta)",
+   "summary": "A coordinator agent delegates long-running work to cloud subagents; can subscribe to Slack, PRs and schedules. Exact day not confirmed (September per secondary timeline).",
+   "url": "https://cursor.com/blog/projects",
+   "type": "Dev tools"
+  }
+ ]
+}
