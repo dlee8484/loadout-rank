@@ -1,8 +1,8 @@
 # Loadout Rank
 
-> Ranked AI tools by use case (8 categories, 10 tools each) plus a dated list of recent AI releases. Scores are provisional editorial seed scores as of 2026-10-15.
+> Ranked AI tools by use case (8 categories, 10 tools each) plus a dated list of recent AI releases. Scores are provisional editorial seed scores as of 2026-10-16.
 
-Key facts: updated 2026-10-15; weights planned Quality 40 / Adoption 20 / Value 15 / Ease 15 / Trust 10; no affiliate or sponsored links currently.
+Key facts: updated 2026-10-16; weights planned Quality 40 / Adoption 20 / Value 15 / Ease 15 / Trust 10; no affiliate or sponsored links currently.
 
 ## Main
 - [Rankings (Markdown, citable)](https://dlee8484.github.io/loadout-rank/rankings.md): all rankings, scores, release list with dates and sources

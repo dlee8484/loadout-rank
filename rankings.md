@@ -1,17 +1,17 @@
 # Loadout Rank — AI tool rankings by use case
 
 URL: https://dlee8484.github.io/loadout-rank/
-Last updated: 2026-10-15
+Last updated: 2026-10-16
 Status: provisional editorial seed scores (0–100); not yet from a full test suite.
 
 ## Methodology summary
 Planned weights: Quality 40%, Adoption & momentum 20%, Value 15%, Ease of use 15%, Trust 10%. Sources: public industry surveys, power rankings, vendor docs. Major releases trigger a re-rank. Full text: https://dlee8484.github.io/loadout-rank/about.html
 
 ## Citation
-Cite as: "Loadout Rank, AI tool rankings by use case, updated 2026-10-15, https://dlee8484.github.io/loadout-rank/rankings.md". Scores are provisional; verify prices and features on vendor sites.
+Cite as: "Loadout Rank, AI tool rankings by use case, updated 2026-10-16, https://dlee8484.github.io/loadout-rank/rankings.md". Scores are provisional; verify prices and features on vendor sites.
 
 ## Disclosure
-No links on this site are affiliate or sponsored links as of 2026-10-15. Sponsored placements, if added, will be labeled and never change rank.
+No links on this site are affiliate or sponsored links as of 2026-10-16. Sponsored placements, if added, will be labeled and never change rank.
 
 ## Coding agents & AI IDEs
 _Pro dev work: repo-wide changes, refactors, async tasks._ (https://dlee8484.github.io/loadout-rank/#coding-agents-ai-ides)
@@ -125,8 +125,12 @@ _Where to compare models and track releases (also our data sources)._ (https://d
 9. **LiveBench** — score 77/100. Contamination-resistant benchmark; LiveBench 2.0 grades long-horizon real work output. <https://livebench.ai>
 10. **Aider LLM Leaderboards** — score 76/100. Benchmarks of LLM code-editing skill from the Aider project. <https://aider.chat/docs/leaderboards/>
 
-## New releases (Sep 8 – Oct 14, 2026)
+## New releases (Sep 8 – Oct 15, 2026)
 
+- **2026-10-15 — Muse Spark Open (open weights)** (Meta, Model): Meta's open-weight multimodal MoE: 816B total / 42B active parameters, 1M-token context, built for coding and agentic work. Weights on Hugging Face; runs locally on M5 Ultra Mac Studios via MLX, plus vLLM, SGLang and llama.cpp; hosted on OpenRouter, Groq, Together and others. <https://research.meta.ai/blog/muse-spark-open>
+- **2026-10-15 — Nemotron 3.5 Super VL and Bolt** (NVIDIA, Model): Open models for agents: Super VL (120B) for servers, Bolt 74B-A9B sized for 24GB local machines with llama.cpp, Ollama, LM Studio and vLLM support. A 4GB Bolt E4B is due Oct 23. <https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/>
+- **2026-10-15 — Code Review GA for Claude Team and Enterprise** (Anthropic, Dev tools): Automated GitHub pull-request reviews leave research preview; most finish in 6-10 minutes, with Quick, Standard or Deep settings per repo. Eligible Enterprise orgs can claim credits through Jan 15, 2027. <https://claude.com/resources/articles/code-review-is-now-generally-available>
+- **2026-10-14 — Deep Review (public release)** (Google, Agents): Agentic system that checks technical documents (papers, Docs, slides) for grounded, rigorous feedback. Two free reviews per week; heavier use via your Gemini API key. <https://research.google/blog/analyzing-technical-documents-with-deep-review/>
 - **2026-10-13 — Gemini 4 Argon** (Google, Model): Google's latest frontier model, aimed at hard coding, science and agentic work with a 1M-token limit. Available via API, Antigravity (Ultra), and the Gemini app (Ultra/Pro). Intro price $2/$10 per 1M tokens until Nov 30. <https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/>
 - **2026-10-07 — Claude Haiku 5.5** (Anthropic, Model): Anthropic's cheapest, fastest small model. Sonnet 5.5 cache reads also halved in price, and Max/Team plans get monthly API credits. <https://www.anthropic.com/claude-haiku-5-5>
 - **2026-10-07 — GPT-6 with Intelligent UI in ChatGPT** (OpenAI, Chat): GPT-6 Sol (paid) and Luna (Free/Go) arrive in ChatGPT Chat, answering with interactive UIs. Rollout to paid tiers started Oct 7, Free/Go the next day. <https://openai.com/index/gpt-6-for-everyone/>
