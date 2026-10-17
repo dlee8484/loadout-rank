@@ -1,17 +1,17 @@
 # Loadout Rank — AI tool rankings by use case
 
 URL: https://dlee8484.github.io/loadout-rank/
-Last updated: 2026-10-16
+Last updated: 2026-10-17
 Status: provisional editorial seed scores (0–100); not yet from a full test suite.
 
 ## Methodology summary
 Planned weights: Quality 40%, Adoption & momentum 20%, Value 15%, Ease of use 15%, Trust 10%. Sources: public industry surveys, power rankings, vendor docs. Major releases trigger a re-rank. Full text: https://dlee8484.github.io/loadout-rank/about.html
 
 ## Citation
-Cite as: "Loadout Rank, AI tool rankings by use case, updated 2026-10-16, https://dlee8484.github.io/loadout-rank/rankings.md". Scores are provisional; verify prices and features on vendor sites.
+Cite as: "Loadout Rank, AI tool rankings by use case, updated 2026-10-17, https://dlee8484.github.io/loadout-rank/rankings.md". Scores are provisional; verify prices and features on vendor sites.
 
 ## Disclosure
-No links on this site are affiliate or sponsored links as of 2026-10-16. Sponsored placements, if added, will be labeled and never change rank.
+No links on this site are affiliate or sponsored links as of 2026-10-17. Sponsored placements, if added, will be labeled and never change rank.
 
 ## Coding agents & AI IDEs
 _Pro dev work: repo-wide changes, refactors, async tasks._ (https://dlee8484.github.io/loadout-rank/#coding-agents-ai-ides)
@@ -125,8 +125,12 @@ _Where to compare models and track releases (also our data sources)._ (https://d
 9. **LiveBench** — score 77/100. Contamination-resistant benchmark; LiveBench 2.0 grades long-horizon real work output. <https://livebench.ai>
 10. **Aider LLM Leaderboards** — score 76/100. Benchmarks of LLM code-editing skill from the Aider project. <https://aider.chat/docs/leaderboards/>
 
-## New releases (Sep 8 – Oct 15, 2026)
+## New releases (Sep 8 – Oct 16, 2026)
 
+- **2026-10-16 — Beam 1.0 (open weights, Apache 2.0)** (Reflection, Model): Reflection's first open-weight model: a 501B-total / 23B-active MoE with a 1M-token context, built for coding, reasoning and agentic work. Weights in BF16, FP8 and NVFP4 on Hugging Face; also on Reflection's API and partners including Ollama, LM Studio, OpenRouter and OpenCode. <https://reflection.ai/blog/beam-is-available>
+- **2026-10-15 — FLUX 3 Image Klein (open weights)** (Black Forest Labs, Creative): A 5.6B-parameter open-weight image model for text-to-image, editing and multi-reference generation (up to 10 reference images), with native 4K output and bounding-box layout control. Weights on Hugging Face under the FLUX Kommunity License; also on the BFL API. <https://bfl.ai/blog/flux-3-image-klein>
+- **2026-10-15 — Krea 3** (Krea, Creative): Krea's new image-editing model for production work: most edits return in under 8 seconds at native 2K, with characters and products kept consistent across references. Live on krea.ai and via fal, Replicate, OpenRouter, Together AI and others. <https://www.krea.ai/blog/introducing-krea-3>
+- **2026-10-15 — GPT-Live-1.1 (ChatGPT Voice)** (OpenAI, Model): Updated voice model for ChatGPT Voice with more natural accents and new voices in French, German, Hindi, Japanese, Korean and Mexican Spanish. Availability varies by region and account. <https://deploymentsafety.openai.com/gpt-live-1-1/introduction>
 - **2026-10-15 — Muse Spark Open (open weights)** (Meta, Model): Meta's open-weight multimodal MoE: 816B total / 42B active parameters, 1M-token context, built for coding and agentic work. Weights on Hugging Face; runs locally on M5 Ultra Mac Studios via MLX, plus vLLM, SGLang and llama.cpp; hosted on OpenRouter, Groq, Together and others. <https://research.meta.ai/blog/muse-spark-open>
 - **2026-10-15 — Nemotron 3.5 Super VL and Bolt** (NVIDIA, Model): Open models for agents: Super VL (120B) for servers, Bolt 74B-A9B sized for 24GB local machines with llama.cpp, Ollama, LM Studio and vLLM support. A 4GB Bolt E4B is due Oct 23. <https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/>
 - **2026-10-15 — Code Review GA for Claude Team and Enterprise** (Anthropic, Dev tools): Automated GitHub pull-request reviews leave research preview; most finish in 6-10 minutes, with Quick, Standard or Deep settings per repo. Eligible Enterprise orgs can claim credits through Jan 15, 2027. <https://claude.com/resources/articles/code-review-is-now-generally-available>

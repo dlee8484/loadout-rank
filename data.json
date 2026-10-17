@@ -1,5 +1,5 @@
 {
- "updated": "Oct 16, 2026",
+ "updated": "Oct 17, 2026",
  "tools": [
   {
    "cat": "Coding agents & AI IDEs",
@@ -643,6 +643,38 @@
   }
  ],
  "releases": [
+  {
+   "date": "2026-10-16",
+   "org": "Reflection",
+   "title": "Beam 1.0 (open weights, Apache 2.0)",
+   "summary": "Reflection's first open-weight model: a 501B-total / 23B-active MoE with a 1M-token context, built for coding, reasoning and agentic work. Weights in BF16, FP8 and NVFP4 on Hugging Face; also on Reflection's API and partners including Ollama, LM Studio, OpenRouter and OpenCode.",
+   "url": "https://reflection.ai/blog/beam-is-available",
+   "type": "Model"
+  },
+  {
+   "date": "2026-10-15",
+   "org": "Black Forest Labs",
+   "title": "FLUX 3 Image Klein (open weights)",
+   "summary": "A 5.6B-parameter open-weight image model for text-to-image, editing and multi-reference generation (up to 10 reference images), with native 4K output and bounding-box layout control. Weights on Hugging Face under the FLUX Kommunity License; also on the BFL API.",
+   "url": "https://bfl.ai/blog/flux-3-image-klein",
+   "type": "Creative"
+  },
+  {
+   "date": "2026-10-15",
+   "org": "Krea",
+   "title": "Krea 3",
+   "summary": "Krea's new image-editing model for production work: most edits return in under 8 seconds at native 2K, with characters and products kept consistent across references. Live on krea.ai and via fal, Replicate, OpenRouter, Together AI and others.",
+   "url": "https://www.krea.ai/blog/introducing-krea-3",
+   "type": "Creative"
+  },
+  {
+   "date": "2026-10-15",
+   "org": "OpenAI",
+   "title": "GPT-Live-1.1 (ChatGPT Voice)",
+   "summary": "Updated voice model for ChatGPT Voice with more natural accents and new voices in French, German, Hindi, Japanese, Korean and Mexican Spanish. Availability varies by region and account.",
+   "url": "https://deploymentsafety.openai.com/gpt-live-1-1/introduction",
+   "type": "Model"
+  },
   {
    "date": "2026-10-15",
    "org": "Meta",
