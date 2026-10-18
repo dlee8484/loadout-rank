@@ -1,5 +1,5 @@
 {
- "updated": "Oct 17, 2026",
+ "updated": "Oct 18, 2026",
  "tools": [
   {
    "cat": "Coding agents & AI IDEs",
@@ -644,12 +644,60 @@
  ],
  "releases": [
   {
+   "date": "2026-10-17",
+   "org": "DeepSeek",
+   "title": "DeepSeek-V4.1-Flash-1017 (open weights, MIT) + Search & Fetch APIs",
+   "summary": "A minor update to DeepSeek-V4.1-Flash with gains in reasoning, coding, agentic and visual benchmarks (DeepSeek reports DeepSWE v1.1 77.0, up from 74.2; Terminal-Bench 4.0 42.3, up from 31.2) plus shorter outputs and faster task runs. Live on DeepSeek's website, app and API under the same deepseek-flash name at unchanged prices; MIT-licensed weights on Hugging Face and ModelScope. DeepSeek also opened its in-house Search & Fetch APIs to everyone at $0.75 per 1,000 calls per endpoint.",
+   "url": "https://api-docs.deepseek.com/news/news261017",
+   "type": "Model"
+  },
+  {
+   "date": "2026-10-16",
+   "org": "Perplexity",
+   "title": "REA /reverse-engineer skill in Perplexity Computer",
+   "summary": "Computer can now use REA (Reverse Engineer Anything), morluto's open-source MIT-licensed toolkit, to inspect how an app works without its source code and then build a working version. Tasks that use /reverse-engineer are free through Oct 31, up to 10,000 credits per user. Announced on Perplexity's official Computer account on X.",
+   "url": "https://x.com/AskPerplexity/status/2111120664543596957",
+   "type": "Agents"
+  },
+  {
+   "date": "2026-10-16",
+   "org": "Elorian",
+   "title": "Glimpse (visual thinking model)",
+   "summary": "Elorian's first model reasons over images and video: tracking objects through motion, reasoning from other viewpoints and predicting physical consequences, with multimodal tools and subagents. Available today via API and Elorian's chat UI at $0.60 / $3.00 per 1M input/output tokens; benchmarks are Elorian's own.",
+   "url": "https://elorian.ai/blog/introducing-glimpse",
+   "type": "Model"
+  },
+  {
+   "date": "2026-10-16",
+   "org": "NVIDIA",
+   "title": "RTX Spark laptops go on sale",
+   "summary": "Windows laptops built on NVIDIA's RTX Spark superchip (Blackwell RTX GPU + Grace CPU) with up to 128GB of unified memory and up to 1 petaflop of FP4 AI compute, aimed at local AI models and agents, creative apps and gaming. Available from ASUS, Dell, HP, Lenovo, Microsoft and MSI, starting at $2,599; pricing varies by region.",
+   "url": "https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs",
+   "type": "Hardware"
+  },
+  {
+   "date": "2026-10-16",
+   "org": "Cline",
+   "title": "Cline Cloud sessions (v4.1.25)",
+   "summary": "Cline can now run a task in a hosted sandbox on a GitHub repo and branch you pick; cloud tasks show in Recent and History, notify you when they finish, and keep running after you close your editor. Rolling out gradually.",
+   "url": "https://github.com/cline/cline/releases/tag/v4.1.25",
+   "type": "Dev tools"
+  },
+  {
    "date": "2026-10-16",
    "org": "Reflection",
    "title": "Beam 1.0 (open weights, Apache 2.0)",
    "summary": "Reflection's first open-weight model: a 501B-total / 23B-active MoE with a 1M-token context, built for coding, reasoning and agentic work. Weights in BF16, FP8 and NVFP4 on Hugging Face; also on Reflection's API and partners including Ollama, LM Studio, OpenRouter and OpenCode.",
    "url": "https://reflection.ai/blog/beam-is-available",
    "type": "Model"
+  },
+  {
+   "date": "2026-10-15",
+   "org": "Perplexity",
+   "title": "SPACE sandbox platform open-sourced (Apache 2.0)",
+   "summary": "SPACE, the sandbox platform that runs every Perplexity Computer session, is now open source: isolated Firecracker microVMs with pause/resume, snapshots, session branching, and network and credential controls kept outside the sandbox. Akamai, Crusoe and CoreWeave are offering or documenting deployments.",
+   "url": "https://www.perplexity.ai/hub/blog/open-sourcing-space",
+   "type": "Dev tools"
   },
   {
    "date": "2026-10-15",

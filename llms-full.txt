@@ -1,0 +1,329 @@
+# Loadout Rank — full text for LLMs
+
+URL: https://dlee8484.github.io/loadout-rank/
+Last updated: 2026-10-18
+Status: provisional editorial seed scores (0–100); not yet from a full test suite.
+
+## Methodology summary
+Planned weights: Quality 40%, Adoption & momentum 20%, Value 15%, Ease of use 15%, Trust 10%. Sources: public industry surveys, power rankings, vendor docs. Major releases trigger a re-rank. Full text: https://dlee8484.github.io/loadout-rank/about.html
+
+## Citation
+Cite as: "Loadout Rank, AI tool rankings by use case, updated 2026-10-18, https://dlee8484.github.io/loadout-rank/rankings.md". Scores are provisional; verify prices and features on vendor sites.
+
+## Disclosure
+No links on this site are affiliate or sponsored links as of 2026-10-18. Sponsored placements, if added, will be labeled and never change rank.
+
+## Coding agents & AI IDEs
+_Pro dev work: repo-wide changes, refactors, async tasks._ (https://dlee8484.github.io/loadout-rank/#coding-agents-ai-ides)
+
+1. **Claude Code** — score 93/100. Top of Oct 2026 power rankings (LogRocket); strongest on multi-file/complex work. <https://claude.com/product/claude-code>
+2. **Cursor** — score 90/100. Best full AI-first IDE; now a SpaceXAI subsidiary (closed Aug 2026). <https://cursor.com>
+3. **OpenAI Codex** — score 88/100. Strong async/hands-off tasks; CLI, IDE, web; included with ChatGPT plans. <https://openai.com/codex>
+4. **GitHub Copilot** — score 85/100. Safest enterprise pick; multi-model, widest IDE support, from $10/mo. <https://github.com/features/copilot>
+5. **OpenCode** — score 81/100. Open-source, model-agnostic terminal agent; ranked #2 by LogRocket. <https://opencode.ai>
+6. **Cline** — score 79/100. Open-source coding agent (VS Code) with Plan/Act modes and MCP; model-agnostic. Vendor claims 11M+ developers. <https://cline.bot>
+7. **Gemini CLI** — score 78/100. Google's open-source terminal agent for Gemini models; free to inspect on GitHub. <https://github.com/google-gemini/gemini-cli>
+8. **Aider** — score 77/100. Open-source AI pair programming in your terminal; also publishes an LLM code-editing leaderboard. <https://aider.chat>
+9. **Zed** — score 76/100. High-performance multiplayer code editor from the creators of Atom and Tree-sitter; check its current AI features. <https://zed.dev>
+10. **Devin** — score 75/100. Cognition's autonomous software-engineer agent with parallel cloud agents, aimed at engineering teams. <https://devin.ai>
+
+## Vibe coding & app builders
+_Prompt-to-app for non-engineers and fast prototypes._ (https://dlee8484.github.io/loadout-rank/#vibe-coding-app-builders)
+
+1. **Lovable** — score 90/100. Popular prompt-to-full-stack-app builder with hosting built in. <https://lovable.dev>
+2. **Bolt.new** — score 87/100. Browser-based app builder, fast from prompt to deployed app. <https://bolt.new>
+3. **v0 by Vercel** — score 85/100. Best for polished React/Next.js UI and Vercel deploys. <https://v0.app>
+4. **Replit** — score 83/100. All-in-one cloud IDE + agent + hosting; Core $20/mo. <https://replit.com>
+5. **Google Antigravity** — score 78/100. Newer agent-first IDE from Google; one to watch. <https://antigravity.google>
+6. **Base44** — score 77/100. No-code AI platform that turns a described idea into a working app or website. <https://base44.com>
+7. **Figma Make** — score 76/100. Prompt-to-prototype/app builder inside the Figma ecosystem; natural fit for design-led teams. <https://www.figma.com/make/>
+8. **Emergent** — score 75/100. Chat-driven builder for web and mobile apps using AI agents. <https://emergent.sh>
+9. **Bubble** — score 74/100. Established no-code platform now with an AI app builder plus a visual editor for design, database and logic. <https://bubble.io>
+10. **Anything** — score 73/100. AI agent that builds sites, apps and tools from a description (formerly create.xyz). <https://www.create.xyz>
+
+## AI agents & automation
+_Frameworks and platforms for building agents._ (https://dlee8484.github.io/loadout-rank/#ai-agents-automation)
+
+1. **LangGraph** — score 91/100. Leading for durable, stateful, interruptible Python agent graphs. <https://langchain-ai.github.io/langgraph/>
+2. **Pydantic AI** — score 88/100. Typed Python agents with durable execution backends. <https://ai.pydantic.dev>
+3. **Mastra** — score 86/100. Strongest TypeScript-first agent framework (agents, workflows, evals). <https://mastra.ai>
+4. **Microsoft Agent Framework** — score 84/100. 1.0 since Apr 2026; successor to AutoGen/Semantic Kernel; .NET + Python. <https://github.com/microsoft/agent-framework>
+5. **n8n** — score 80/100. Low-code workflow automation with an AI Agent node. <https://n8n.io>
+6. **CrewAI** — score 79/100. Multi-agent framework and platform; vendor pitch is 'the leading multi-agent platform'. <https://www.crewai.com>
+7. **OpenAI Agents SDK** — score 78/100. OpenAI's open-source Python SDK for building agents with tools, handoffs and tracing. <https://openai.github.io/openai-agents-python/>
+8. **LlamaIndex** — score 77/100. Agent and document-workflow toolkit; its LlamaParse product focuses on document OCR. <https://www.llamaindex.ai>
+9. **Dify** — score 76/100. Visual canvas for agentic workflows; deployable on cloud, in your VPC, or self-hosted. <https://dify.ai>
+10. **Zapier** — score 75/100. No-code automation platform that adds AI to workflows, as agents, or as customer chatbots. <https://zapier.com/ai>
+
+## Game development
+_Engine assistants, prototyping, and asset generation._ (https://dlee8484.github.io/loadout-rank/#game-development)
+
+1. **Unity AI** — score 89/100. Best inside existing Unity 6 projects; open beta since May 2026. <https://unity.com/ai>
+2. **Rosebud AI** — score 86/100. Clearest prompt-to-playable browser game tool with published pricing. <https://rosebud.ai>
+3. **GDevelop** — score 84/100. Cheapest route to an exportable game you own; open-source engine with AI. <https://gdevelop.io>
+4. **Ludo.ai** — score 82/100. Game-specific ideation, sprite, art and audio generation. <https://www.ludo.ai>
+5. **Meshy** — score 79/100. Text/image-to-3D assets for game pipelines. <https://www.meshy.ai>
+6. **Scenario** — score 77/100. Image, video, 3D and audio generation pipelines for game and creative production assets. <https://www.scenario.com>
+7. **Layer** — score 76/100. Team creative platform: 300+ models (vendor claim), trainable on your own art style, with workflow automation. <https://www.layer.ai>
+8. **Tripo** — score 75/100. Text- and image-to-3D model generator aimed at games, 3D printing and animation. <https://www.tripo3d.ai>
+9. **Inworld** — score 74/100. Realtime voice and character AI for consumer apps, including interactive characters. <https://inworld.ai>
+10. **Convai** — score 73/100. Conversational AI for NPCs and virtual-world characters in games and XR. <https://convai.com>
+
+## Chat assistants & general AI
+_Everyday all-purpose assistants._ (https://dlee8484.github.io/loadout-rank/#chat-assistants-general-ai)
+
+1. **ChatGPT** — score 93/100. Broadest feature set and user base. <https://chatgpt.com>
+2. **Claude** — score 91/100. Top for writing quality, long context and coding. <https://claude.com>
+3. **Gemini** — score 88/100. Deep Google ecosystem integration and multimodal strength. <https://gemini.google.com>
+4. **Grok** — score 84/100. Real-time X data access; xAI's assistant. <https://grok.com>
+5. **NotebookLM** — score 82/100. Best for source-grounded study/research notebooks and audio overviews. <https://notebooklm.google>
+6. **Perplexity** — score 80/100. Answer engine centered on cited, web-wide research; also offers developer APIs. <https://www.perplexity.ai>
+7. **Microsoft Copilot** — score 79/100. Microsoft's free-to-start assistant across web and Windows; strongest if you live in Microsoft 365. <https://copilot.microsoft.com>
+8. **Mistral Vibe (formerly Le Chat)** — score 77/100. European lab's chat and coding-agent app (Le Chat was renamed Vibe). <https://mistral.ai/products/vibe/>
+9. **DeepSeek** — score 76/100. Lab that open-sources frontier models such as DeepSeek-V4 and offers a chat app and API. <https://www.deepseek.com>
+10. **Meta AI** — score 74/100. Meta's AI assistant; limited verification because the site blocks automated checks. <https://www.meta.ai>
+
+## Image, video & music creation
+_Creative generation for content makers._ (https://dlee8484.github.io/loadout-rank/#image-video-music-creation)
+
+1. **Runway** — score 90/100. Established pro video generation/editing suite. <https://runwayml.com>
+2. **Google Flow** — score 88/100. Google's AI filmmaking tool built on its video models. <https://labs.google/flow>
+3. **Kling AI** — score 86/100. Popular high-quality video generator. <https://klingai.com>
+4. **Suno** — score 84/100. Leading text-to-song generator. <https://suno.com>
+5. **ElevenLabs** — score 83/100. Best-known voice/TTS and audio generation. <https://elevenlabs.io>
+6. **Midjourney** — score 82/100. Well-known image generator; its site blocks automated link checks, so we could not verify details. <https://www.midjourney.com>
+7. **Adobe Firefly** — score 81/100. Adobe's creative studio with 30+ models (vendor claim) for images, video and audio. <https://firefly.adobe.com>
+8. **Luma** — score 80/100. Video and image creation built on Luma's Ray and Uni models, with creative agents. <https://lumalabs.ai>
+9. **Ideogram** — score 79/100. Image generator; its site blocks automated link checks, so we could not verify details. <https://ideogram.ai>
+10. **Pika** — score 77/100. AI creative tools; vendor pitch is 'built for creatives'. <https://pika.art>
+
+## Local & open-source AI
+_Run models yourself; image/video pipelines; model hubs._ (https://dlee8484.github.io/loadout-rank/#local-open-source-ai)
+
+1. **ComfyUI** — score 92/100. Top open-source node-based image/video/audio engine (~137k stars, Archestack). <https://www.comfy.org>
+2. **Ollama** — score 90/100. Simplest way to run open LLMs locally. <https://ollama.com>
+3. **LM Studio** — score 87/100. Friendly desktop GUI for local models. <https://lmstudio.ai>
+4. **Hugging Face** — score 86/100. The hub for open models, datasets and Spaces. <https://huggingface.co>
+5. **OpenRouter** — score 83/100. One API across many hosted models; handy for routing/pricing. <https://openrouter.ai>
+6. **llama.cpp** — score 82/100. The C/C++ inference engine under many local-LLM apps (LM Studio cites it). <https://github.com/ggml-org/llama.cpp>
+7. **Open WebUI** — score 81/100. Self-hosted AI interface that connects to many models, local or hosted. <https://openwebui.com>
+8. **vLLM** — score 80/100. High-throughput, memory-efficient LLM serving engine for production GPUs. <https://vllm.ai>
+9. **Jan** — score 79/100. Open-source ChatGPT alternative that runs models locally or connects to cloud models. <https://www.jan.ai>
+10. **Unsloth** — score 78/100. Open-source desktop UI for training and running open models on your own hardware. <https://unsloth.ai>
+
+## Model leaderboards & discovery
+_Where to compare models and track releases (also our data sources)._ (https://dlee8484.github.io/loadout-rank/#model-leaderboards-discovery)
+
+1. **LMArena** — score 91/100. Crowd-voted model leaderboard. <https://lmarena.ai>
+2. **Artificial Analysis** — score 89/100. Independent speed/price/quality benchmarks. <https://artificialanalysis.ai>
+3. **Model Context Protocol** — score 87/100. The standard for connecting tools to agents; follow its spec updates. <https://modelcontextprotocol.io>
+4. **Hugging Face** — score 85/100. Trending models and papers. <https://huggingface.co>
+5. **OpenRouter** — score 82/100. Live usage rankings by model/app. <https://openrouter.ai>
+6. **SWE-bench** — score 80/100. Standard benchmark and leaderboards for AI software-engineering tasks. <https://www.swebench.com>
+7. **Scale Labs Leaderboards** — score 79/100. Expert-driven LLM benchmarks across coding, reasoning and more. <https://labs.scale.com/leaderboard>
+8. **Epoch AI** — score 78/100. Research institute tracking AI trends; good for compute, data and capability context. <https://epoch.ai>
+9. **LiveBench** — score 77/100. Contamination-resistant benchmark; LiveBench 2.0 grades long-horizon real work output. <https://livebench.ai>
+10. **Aider LLM Leaderboards** — score 76/100. Benchmarks of LLM code-editing skill from the Aider project. <https://aider.chat/docs/leaderboards/>
+
+## New releases (Sep 8 – Oct 17, 2026)
+
+- **2026-10-17 — DeepSeek-V4.1-Flash-1017 (open weights, MIT) + Search & Fetch APIs** (DeepSeek, Model): A minor update to DeepSeek-V4.1-Flash with gains in reasoning, coding, agentic and visual benchmarks (DeepSeek reports DeepSWE v1.1 77.0, up from 74.2; Terminal-Bench 4.0 42.3, up from 31.2) plus shorter outputs and faster task runs. Live on DeepSeek's website, app and API under the same deepseek-flash name at unchanged prices; MIT-licensed weights on Hugging Face and ModelScope. DeepSeek also opened its in-house Search & Fetch APIs to everyone at $0.75 per 1,000 calls per endpoint. <https://api-docs.deepseek.com/news/news261017>
+- **2026-10-16 — REA /reverse-engineer skill in Perplexity Computer** (Perplexity, Agents): Computer can now use REA (Reverse Engineer Anything), morluto's open-source MIT-licensed toolkit, to inspect how an app works without its source code and then build a working version. Tasks that use /reverse-engineer are free through Oct 31, up to 10,000 credits per user. Announced on Perplexity's official Computer account on X. <https://x.com/AskPerplexity/status/2111120664543596957>
+- **2026-10-16 — Glimpse (visual thinking model)** (Elorian, Model): Elorian's first model reasons over images and video: tracking objects through motion, reasoning from other viewpoints and predicting physical consequences, with multimodal tools and subagents. Available today via API and Elorian's chat UI at $0.60 / $3.00 per 1M input/output tokens; benchmarks are Elorian's own. <https://elorian.ai/blog/introducing-glimpse>
+- **2026-10-16 — RTX Spark laptops go on sale** (NVIDIA, Hardware): Windows laptops built on NVIDIA's RTX Spark superchip (Blackwell RTX GPU + Grace CPU) with up to 128GB of unified memory and up to 1 petaflop of FP4 AI compute, aimed at local AI models and agents, creative apps and gaming. Available from ASUS, Dell, HP, Lenovo, Microsoft and MSI, starting at $2,599; pricing varies by region. <https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs>
+- **2026-10-16 — Cline Cloud sessions (v4.1.25)** (Cline, Dev tools): Cline can now run a task in a hosted sandbox on a GitHub repo and branch you pick; cloud tasks show in Recent and History, notify you when they finish, and keep running after you close your editor. Rolling out gradually. <https://github.com/cline/cline/releases/tag/v4.1.25>
+- **2026-10-16 — Beam 1.0 (open weights, Apache 2.0)** (Reflection, Model): Reflection's first open-weight model: a 501B-total / 23B-active MoE with a 1M-token context, built for coding, reasoning and agentic work. Weights in BF16, FP8 and NVFP4 on Hugging Face; also on Reflection's API and partners including Ollama, LM Studio, OpenRouter and OpenCode. <https://reflection.ai/blog/beam-is-available>
+- **2026-10-15 — SPACE sandbox platform open-sourced (Apache 2.0)** (Perplexity, Dev tools): SPACE, the sandbox platform that runs every Perplexity Computer session, is now open source: isolated Firecracker microVMs with pause/resume, snapshots, session branching, and network and credential controls kept outside the sandbox. Akamai, Crusoe and CoreWeave are offering or documenting deployments. <https://www.perplexity.ai/hub/blog/open-sourcing-space>
+- **2026-10-15 — FLUX 3 Image Klein (open weights)** (Black Forest Labs, Creative): A 5.6B-parameter open-weight image model for text-to-image, editing and multi-reference generation (up to 10 reference images), with native 4K output and bounding-box layout control. Weights on Hugging Face under the FLUX Kommunity License; also on the BFL API. <https://bfl.ai/blog/flux-3-image-klein>
+- **2026-10-15 — Krea 3** (Krea, Creative): Krea's new image-editing model for production work: most edits return in under 8 seconds at native 2K, with characters and products kept consistent across references. Live on krea.ai and via fal, Replicate, OpenRouter, Together AI and others. <https://www.krea.ai/blog/introducing-krea-3>
+- **2026-10-15 — GPT-Live-1.1 (ChatGPT Voice)** (OpenAI, Model): Updated voice model for ChatGPT Voice with more natural accents and new voices in French, German, Hindi, Japanese, Korean and Mexican Spanish. Availability varies by region and account. <https://deploymentsafety.openai.com/gpt-live-1-1/introduction>
+- **2026-10-15 — Muse Spark Open (open weights)** (Meta, Model): Meta's open-weight multimodal MoE: 816B total / 42B active parameters, 1M-token context, built for coding and agentic work. Weights on Hugging Face; runs locally on M5 Ultra Mac Studios via MLX, plus vLLM, SGLang and llama.cpp; hosted on OpenRouter, Groq, Together and others. <https://research.meta.ai/blog/muse-spark-open>
+- **2026-10-15 — Nemotron 3.5 Super VL and Bolt** (NVIDIA, Model): Open models for agents: Super VL (120B) for servers, Bolt 74B-A9B sized for 24GB local machines with llama.cpp, Ollama, LM Studio and vLLM support. A 4GB Bolt E4B is due Oct 23. <https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/>
+- **2026-10-15 — Code Review GA for Claude Team and Enterprise** (Anthropic, Dev tools): Automated GitHub pull-request reviews leave research preview; most finish in 6-10 minutes, with Quick, Standard or Deep settings per repo. Eligible Enterprise orgs can claim credits through Jan 15, 2027. <https://claude.com/resources/articles/code-review-is-now-generally-available>
+- **2026-10-14 — Deep Review (public release)** (Google, Agents): Agentic system that checks technical documents (papers, Docs, slides) for grounded, rigorous feedback. Two free reviews per week; heavier use via your Gemini API key. <https://research.google/blog/analyzing-technical-documents-with-deep-review/>
+- **2026-10-13 — Gemini 4 Argon** (Google, Model): Google's latest frontier model, aimed at hard coding, science and agentic work with a 1M-token limit. Available via API, Antigravity (Ultra), and the Gemini app (Ultra/Pro). Intro price $2/$10 per 1M tokens until Nov 30. <https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/>
+- **2026-10-07 — Claude Haiku 5.5** (Anthropic, Model): Anthropic's cheapest, fastest small model. Sonnet 5.5 cache reads also halved in price, and Max/Team plans get monthly API credits. <https://www.anthropic.com/claude-haiku-5-5>
+- **2026-10-07 — GPT-6 with Intelligent UI in ChatGPT** (OpenAI, Chat): GPT-6 Sol (paid) and Luna (Free/Go) arrive in ChatGPT Chat, answering with interactive UIs. Rollout to paid tiers started Oct 7, Free/Go the next day. <https://openai.com/index/gpt-6-for-everyone/>
+- **2026-09-29 — dots (cloud-computer agents)** (OpenAI, Agents): Always-on personal agents rolling out in ChatGPT to Pro and Business Premium users in eligible markets. <https://openai.com/index/introducing-dots/>
+- **2026-09-22 — Claude Opus 5.5** (Anthropic, Model): First of the Claude 5.5 family: long-running agentic coding and knowledge work, $4/$20 per 1M tokens, 1M context. Fast mode available in Claude Code. <https://www.anthropic.com/claude-opus-5-5>
+- **2026-09-21 — Grok 4.7** (xAI (SpaceXAI), Model): Flagship for coding and knowledge work; 500k context, $2/$6 per 1M tokens on the API. Available in Cursor and Grok Build. <https://x.ai/news/grok-4-7>
+- **2026-09-10 — Agents API (public beta)** (OpenAI, Dev tools): Brings the Codex harness and infrastructure to developers via API; pay only for tokens and tools used. <https://openai.com/index/introducing-the-agents-api/>
+- **2026-09-08 — Muse personal agent** (Meta, Agents): Meta's personal AI agent for everyday tasks, in a Muse app, WhatsApp and the web. Date per secondary coverage; link is AP News. <https://apnews.com/article/meta-muse-ai-agent-3a4572eb4cf4e95d8a0dfdad6e6ca065>
+- **2026-09 — Projects (beta)** (Cursor, Dev tools): A coordinator agent delegates long-running work to cloud subagents; can subscribe to Slack, PRs and schedules. Exact day not confirmed (September per secondary timeline). <https://cursor.com/blog/projects>
+
+## Head-to-head comparisons (full)
+
+Facts in these tables were checked against official vendor pages on 2026-10-15; prices change often. Index: https://dlee8484.github.io/loadout-rank/comparisons.html
+
+### Claude Code vs Cursor
+URL: https://dlee8484.github.io/loadout-rank/claude-code-vs-cursor.html
+
+**Quick verdict:** Claude Code is our provisional #1 coding agent and Cursor our #2. Choose Claude Code if you want a terminal-first agent that also runs in IDEs, desktop and web and you already pay for Claude. Choose Cursor if you want a full AI-first editor with cloud agents and a free tier to start.
+
+- **Pick Claude Code if:** You live in the terminal or want one agent across terminal, IDE, desktop and web, and you already have (or want) a Claude Pro/Max plan.
+- **Pick Cursor if:** You want an AI-first editor as your daily driver, cloud agents and automations, and a $0 plan to try it first.
+- **Rankings:** Claude Code is #1 in Coding agents & AI IDEs (93/100); Cursor is #2 in Coding agents & AI IDEs (90/100). Scores are provisional.
+
+| Feature | Claude Code | Cursor |
+|---|---|---|
+| Where it runs | Terminal CLI, VS Code and JetBrains extensions, desktop app, and web (Claude Code docs). | Cursor's site lists Agents, Cloud, Mobile, Automations, CLI and Review as products, alongside the editor. |
+| Free option | Not included on Claude's Free plan; included with Pro and Max (or an Anthropic Console account). | Free plan at $0 with limited AI usage. |
+| Individual pricing | Claude Pro: $17/mo billed annually ($20 monthly). Max: from $100/mo. | Individual tiers listed from $8/mo (Plus, Grok models only) up to $200/mo (Ultra); $30/mo Premium adds third-party models at API list price. |
+| Team pricing | Team standard seat $20/seat/mo billed annually ($25 monthly); premium seat $100 annually ($125 monthly). | Teams from $30/user/mo. |
+| Models | Anthropic's Claude models; terminal, VS Code and JetBrains also support third-party providers. | Grok models included on plans; third-party models are billed separately by usage. Cursor is now a SpaceXAI subsidiary (closed Aug 2026). |
+
+Sources: Claude Code docs <https://code.claude.com/docs/en/overview>; Claude pricing <https://claude.com/pricing>; Cursor pricing <https://cursor.com/pricing>
+
+### Cursor vs GitHub Copilot
+URL: https://dlee8484.github.io/loadout-rank/cursor-vs-github-copilot.html
+
+**Quick verdict:** Cursor ranks higher on our provisional list (#2 vs #4), but the two solve different problems. Choose GitHub Copilot if you want the cheapest paid entry ($10/mo), broad IDE support and enterprise plans on GitHub. Choose Cursor if you want an AI-first editor with cloud agents.
+
+- **Pick Cursor if:** You want a standalone AI-first editor, cloud agents and automations.
+- **Pick GitHub Copilot if:** You want AI inside the IDE you already use (VS Code, Visual Studio, JetBrains, Neovim and more), a low entry price, or GitHub-managed enterprise billing.
+- **Rankings:** Cursor is #2 in Coding agents & AI IDEs (90/100); GitHub Copilot is #4 in Coding agents & AI IDEs (85/100). Scores are provisional.
+
+| Feature | Cursor | GitHub Copilot |
+|---|---|---|
+| Free option | Free plan at $0, limited AI usage. | Free plan at $0 with limited chat and agent usage. |
+| Individual pricing | Individual tiers listed from $8/mo (Plus, Grok models only) to $200/mo; Premium is $30/mo. | Pro $10/mo, Pro+ $39/mo, Max $100/mo as listed on GitHub's plans page. |
+| Usage model | Plans include a pool of AI usage; third-party models on Premium and above are billed separately by usage. | Every plan includes a monthly allowance of GitHub AI Credits; 1 credit = $0.01, with optional dollar budgets for extra usage. |
+| Where it runs | Its own editor plus Agents, Cloud, CLI and Mobile. | Extensions for VS Code, Visual Studio, Vim, Neovim, JetBrains and Azure Data Studio; also GitHub CLI and GitHub Mobile (GitHub FAQ; chat support varies by IDE). |
+| Team pricing | Teams from $30/user/mo. | Business and Enterprise plans exist; see GitHub's plans page for current seat prices (not quoted here). |
+
+Sources: Cursor pricing <https://cursor.com/pricing>; GitHub Copilot plans <https://github.com/features/copilot/plans>
+
+### Claude Code vs OpenAI Codex
+URL: https://dlee8484.github.io/loadout-rank/claude-code-vs-openai-codex.html
+
+**Quick verdict:** Claude Code is #1 and OpenAI Codex #3 in our provisional ranking. Both are agentic coding tools bundled into chat subscriptions. Choose Codex if you want the lowest entry price ($8/mo Go, $20/mo Plus). Choose Claude Code if you prefer Anthropic's models and a terminal-first workflow.
+
+- **Pick Claude Code if:** You prefer Claude models, want terminal/IDE/desktop/web in one tool, and are fine starting at the $17-20/mo Pro plan.
+- **Pick OpenAI Codex if:** You already use ChatGPT, want a cheaper entry point, or want web, CLI, IDE extension and iOS access from the same plan.
+- **Rankings:** Claude Code is #1 in Coding agents & AI IDEs (93/100); OpenAI Codex is #3 in Coding agents & AI IDEs (88/100). Scores are provisional.
+
+| Feature | Claude Code | OpenAI Codex |
+|---|---|---|
+| Free option | Not on Claude's Free plan. | Free plan at $0 for quick coding tasks. |
+| Entry paid price | Claude Pro: $17/mo annual, $20 monthly. | Go $8/mo; Plus $20/mo. |
+| Heavy-use price | Max from $100/mo (5x or 20x Pro usage). | Pro plans at $100, $200 or $500/mo. |
+| Where it runs | Terminal, VS Code, JetBrains, desktop, web. | Web, CLI, IDE extension and iOS (listed under Plus). |
+| Included with | Claude Pro and Max subscriptions, or Anthropic Console. | ChatGPT plans (Free, Go, Plus, Pro). |
+
+Sources: Claude pricing <https://claude.com/pricing>; Claude Code docs <https://code.claude.com/docs/en/overview>; Codex pricing (OpenAI) <https://developers.openai.com/codex/pricing>
+
+### Lovable vs Bolt.new
+URL: https://dlee8484.github.io/loadout-rank/lovable-vs-bolt-new.html
+
+**Quick verdict:** Lovable is our provisional #1 vibe-coding tool and Bolt.new #2. Bolt publishes simple monthly prices ($25 Pro) that are easy to compare; Lovable uses a credit system whose paid prices we could not read from its page. Try both free tiers on the same prompt before paying.
+
+- **Pick Lovable if:** You want a prompt-to-full-stack-app builder with hosting (Cloud) and credits shared across a team workspace.
+- **Pick Bolt.new if:** You want clear token-based plans, a free tier with hosting, and database options in a browser builder.
+- **Rankings:** Lovable is #1 in Vibe coding & app builders (90/100); Bolt.new is #2 in Vibe coding & app builders (87/100). Scores are provisional.
+
+| Feature | Lovable | Bolt.new |
+|---|---|---|
+| Free plan | Daily grant of 5 build credits (up to 30 a month) plus 20 monthly Cloud credits. | $0: 300K tokens daily limit, 1M tokens a month, Bolt branding on websites, website hosting up to 333k web requests. |
+| Paid pricing | Credit-based plans; paid prices were not visible in the page text we could read. Check lovable.dev/pricing. | Pro $25/mo (billed monthly, starts at 10M tokens/mo, no daily limit, custom domain). Teams $30/mo per member. |
+| How usage is metered | Credits; plan mode costs 1 credit per message, default mode varies by task. Monthly plan credits expire after 2 months. | Tokens; larger projects use more tokens per message. Unused Pro tokens roll over. |
+| Hosting & backend | Hosting with Lovable Cloud; credits also cover AI features inside your app. | Website hosting and unlimited databases on every plan; expanded database capacity on Pro. |
+| Team features | Workspace credits are shared by everyone invited. | Teams adds centralized billing and access management. |
+
+Sources: Lovable pricing <https://lovable.dev/pricing>; Bolt pricing <https://bolt.new/pricing>
+
+### Bolt.new vs v0 by Vercel
+URL: https://dlee8484.github.io/loadout-rank/bolt-new-vs-v0.html
+
+**Quick verdict:** Bolt.new ranks #2 and v0 #3 in our provisional vibe-coding list. v0 is the natural pick for React/Next.js UI that deploys to Vercel; Bolt is a more general app builder. Prices below are list prices from each vendor.
+
+- **Pick Bolt.new if:** You want a general browser app builder with hosting and databases included.
+- **Pick v0 by Vercel if:** You build React/Next.js interfaces and want direct Vercel deploys, GitHub sync and Design Mode.
+- **Rankings:** Bolt.new is #2 in Vibe coding & app builders (87/100); v0 by Vercel is #3 in Vibe coding & app builders (85/100). Scores are provisional.
+
+| Feature | Bolt.new | v0 by Vercel |
+|---|---|---|
+| Free plan | $0: 300K daily / 1M monthly tokens, hosting included. | $0: 7 messages/day, deploy to Vercel, Design Mode, GitHub sync. |
+| Paid pricing | Pro $25/mo; Teams $30/mo per member. | Plus $30/user/mo (includes $30 monthly credits and $2 free daily credits); Business $100/user/mo. |
+| Metering | Tokens per month. | Credits; model rates per 1M tokens: v0 Mini $0.20 in / $1.20 out, Pro $2 / $10, Max $5 / $25. |
+| Stack focus | General web and mobile app building. | Vercel ecosystem; billing centralized on vercel.com. |
+| Enterprise | Custom plan with SSO, audit logs, SLAs. | Custom plan with SAML SSO, RBAC and support SLAs. |
+
+Sources: Bolt pricing <https://bolt.new/pricing>; v0 pricing <https://v0.app/pricing>
+
+### Replit vs Bolt.new
+URL: https://dlee8484.github.io/loadout-rank/replit-vs-bolt-new.html
+
+**Quick verdict:** Bolt.new (#2) outranks Replit (#4) in our provisional list, but they differ: Replit is an all-in-one cloud IDE, agent and hosting platform with a $20/mo Core plan, while Bolt is a lighter prompt-to-app builder with a $25/mo Pro plan and a free tier. Replit's pricing page lists Core, Pro and Enterprise plans.
+
+- **Pick Replit if:** You want a full cloud development environment with agents, databases and collaborators, and expect to pay $20+/mo.
+- **Pick Bolt.new if:** You want to start free in a browser builder and keep things lightweight.
+- **Rankings:** Replit is #4 in Vibe coding & app builders (83/100); Bolt.new is #2 in Vibe coding & app builders (87/100). Scores are provisional.
+
+| Feature | Replit | Bolt.new |
+|---|---|---|
+| Entry price | Core $20/mo ($18/mo billed annually). | Free $0; Pro $25/mo. |
+| Higher tier | Pro $100/mo ($90/mo annual): 10 parallel agents, up to 15 collaborators, 28-day database rollback. | Teams $30/mo per member; Enterprise custom. |
+| Included usage | Core includes $20 towards more powerful models; up to 60 projects on Free Mode. | Free: 1M tokens/month. Pro starts at 10M tokens/month. |
+| Product shape | Apps, websites, slides, agents, databases and integrations on one platform (Replit nav). | App and website builder with hosting and databases. |
+
+Sources: Replit pricing <https://replit.com/pricing>; Bolt pricing <https://bolt.new/pricing>
+
+### ChatGPT vs Claude
+URL: https://dlee8484.github.io/loadout-rank/chatgpt-vs-claude.html
+
+**Quick verdict:** ChatGPT is our provisional #1 general assistant and Claude #2. Entry prices are similar ($20/mo for ChatGPT Plus vs $17-20/mo for Claude Pro) and both have free tiers. ChatGPT is broader in consumer features; Claude includes Claude Code on Pro and above. Try both free tiers on your own tasks.
+
+- **Pick ChatGPT if:** You want the broadest consumer feature set (images, voice, deep research, agents) and a cheap $8 Go tier.
+- **Pick Claude if:** You want strong writing and long-context work, and Claude Code bundled into your paid plan.
+- **Rankings:** ChatGPT is #1 in Chat assistants & general AI (93/100); Claude is #2 in Chat assistants & general AI (91/100). Scores are provisional.
+
+| Feature | ChatGPT | Claude |
+|---|---|---|
+| Free plan | Unlimited text chats with GPT-6 (subject to abuse guardrails); limited uploads, images, voice, deep research and Codex. | Chat on web, desktop and mobile; web search, file creation, code execution, memory, Artifacts; Sonnet and Haiku models. |
+| Paid tiers | Go $8/mo (may include ads); Plus $20/mo; Pro from $100/mo (prices as listed on OpenAI's Codex plans page). | Pro $17/mo annual ($20 monthly); Max from $100/mo with 5x or 20x Pro usage. |
+| Models named on vendor pages | GPT-6 family (Sol, Luna, Astra named on the pricing page). | Opus, Sonnet and Haiku (Opus on Pro and up); context up to 1M varies by model. |
+| Coding agent included | Codex included with ChatGPT plans (limited on Free). | Claude Code included on Pro and Max, not on Free. |
+| Team plan | Business and Enterprise plans exist. | Team standard seat $20/seat/mo annual ($25 monthly). |
+
+Sources: ChatGPT pricing <https://chatgpt.com/pricing>; Codex pricing (OpenAI) <https://developers.openai.com/codex/pricing>; Claude pricing <https://claude.com/pricing>
+
+### Ollama vs LM Studio
+URL: https://dlee8484.github.io/loadout-rank/ollama-vs-lm-studio.html
+
+**Quick verdict:** Ollama is #2 and LM Studio #3 in our provisional local-AI ranking. Both are free for local use. Ollama is the lighter, developer-friendly runtime (183K GitHub stars on its site header); LM Studio is a desktop app, now centered on its Bionic agent. Both also sell optional cloud plans.
+
+- **Pick Ollama if:** You want a simple runtime and API for open models, locally or via optional paid cloud.
+- **Pick LM Studio if:** You want a desktop GUI with a built-in agent, offline voice transcription and local models via llama.cpp and MLX.
+- **Rankings:** Ollama is #2 in Local & open-source AI (90/100); LM Studio is #3 in Local & open-source AI (87/100). Scores are provisional.
+
+| Feature | Ollama | LM Studio |
+|---|---|---|
+| Local use | Free: run models locally; cloud models use pay-as-you-go credits. | Free: Bionic Agent, local LLMs via llama.cpp and MLX, offline voice transcription, LM Link for up to 5 devices. |
+| Paid plans | Pro $20/mo ($16.67 annual), Max $100/mo, Team $500/mo. | Bionic+ $20/mo, Pro $100/mo. |
+| Cloud | Cloud models with usage credits (e.g. $60/mo included on Pro). | US-hosted open models (Kimi K3, GLM 5.3, DeepSeek V4 Flash and more) with zero data retention. |
+| Scale claims (vendor) | 9M+ monthly installs, 1B+ model downloads. | None quoted here. |
+
+Sources: Ollama home <https://ollama.com>; Ollama pricing <https://ollama.com/pricing>; LM Studio <https://lmstudio.ai>; LM Studio pricing <https://lmstudio.ai/pricing>
+
+### LangGraph vs Mastra
+URL: https://dlee8484.github.io/loadout-rank/langgraph-vs-mastra.html
+
+**Quick verdict:** LangGraph is our provisional #1 agent framework and Mastra #3. The practical split is language: LangGraph's docs are Python-first, Mastra is a TypeScript framework. Both core frameworks are open source and free; the paid items are hosted add-ons (LangSmith for LangChain's ecosystem, Mastra's platform).
+
+- **Pick LangGraph if:** You write Python agents and want durable, stateful graphs with a large community (43.3k GitHub stars).
+- **Pick Mastra if:** You build in TypeScript and want agents, workflows and evals in one framework (28.8k GitHub stars).
+- **Rankings:** LangGraph is #1 in AI agents & automation (91/100); Mastra is #3 in AI agents & automation (86/100). Scores are provisional.
+
+| Feature | LangGraph | Mastra |
+|---|---|---|
+| Language focus | Python docs (docs.langchain.com/oss/python/langgraph). | TypeScript framework for AI apps and agents. |
+| License | MIT. | Apache 2.0 core with a dual-license model for some enterprise code. |
+| GitHub stars (Oct 15, 2026) | 43.3k | 28.8k |
+| Hosted add-on | LangSmith (separate product): Developer $0/seat with 1 seat and 5k base traces/mo; Plus $39/seat/mo. | Mastra platform: Starter $0; Teams $250/mo; Enterprise custom. |
+| Positioning | 'Build resilient agents.' | 'The modern TypeScript framework for AI-powered applications and agents.' |
+
+Sources: LangGraph on GitHub <https://github.com/langchain-ai/langgraph>; LangChain pricing <https://www.langchain.com/pricing>; Mastra on GitHub <https://github.com/mastra-ai/mastra>; Mastra pricing <https://mastra.ai/pricing>
+
+## Methodology and disclosure
+
+Scores are provisional editorial seed scores (0-100) built from public sources, pending our own test suite. Planned weights: Quality 40%, Adoption & momentum 20%, Value 15%, Ease of use 15%, Trust 10%. No links on this site are affiliate or sponsored links as of 2026-10-18; any future ones will be labeled and never change rank. Full policy: https://dlee8484.github.io/loadout-rank/about.html

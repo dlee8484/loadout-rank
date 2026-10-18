@@ -1,17 +1,17 @@
 # Loadout Rank — AI tool rankings by use case
 
 URL: https://dlee8484.github.io/loadout-rank/
-Last updated: 2026-10-17
+Last updated: 2026-10-18
 Status: provisional editorial seed scores (0–100); not yet from a full test suite.
 
 ## Methodology summary
 Planned weights: Quality 40%, Adoption & momentum 20%, Value 15%, Ease of use 15%, Trust 10%. Sources: public industry surveys, power rankings, vendor docs. Major releases trigger a re-rank. Full text: https://dlee8484.github.io/loadout-rank/about.html
 
 ## Citation
-Cite as: "Loadout Rank, AI tool rankings by use case, updated 2026-10-17, https://dlee8484.github.io/loadout-rank/rankings.md". Scores are provisional; verify prices and features on vendor sites.
+Cite as: "Loadout Rank, AI tool rankings by use case, updated 2026-10-18, https://dlee8484.github.io/loadout-rank/rankings.md". Scores are provisional; verify prices and features on vendor sites.
 
 ## Disclosure
-No links on this site are affiliate or sponsored links as of 2026-10-17. Sponsored placements, if added, will be labeled and never change rank.
+No links on this site are affiliate or sponsored links as of 2026-10-18. Sponsored placements, if added, will be labeled and never change rank.
 
 ## Coding agents & AI IDEs
 _Pro dev work: repo-wide changes, refactors, async tasks._ (https://dlee8484.github.io/loadout-rank/#coding-agents-ai-ides)
@@ -125,9 +125,15 @@ _Where to compare models and track releases (also our data sources)._ (https://d
 9. **LiveBench** — score 77/100. Contamination-resistant benchmark; LiveBench 2.0 grades long-horizon real work output. <https://livebench.ai>
 10. **Aider LLM Leaderboards** — score 76/100. Benchmarks of LLM code-editing skill from the Aider project. <https://aider.chat/docs/leaderboards/>
 
-## New releases (Sep 8 – Oct 16, 2026)
+## New releases (Sep 8 – Oct 17, 2026)
 
+- **2026-10-17 — DeepSeek-V4.1-Flash-1017 (open weights, MIT) + Search & Fetch APIs** (DeepSeek, Model): A minor update to DeepSeek-V4.1-Flash with gains in reasoning, coding, agentic and visual benchmarks (DeepSeek reports DeepSWE v1.1 77.0, up from 74.2; Terminal-Bench 4.0 42.3, up from 31.2) plus shorter outputs and faster task runs. Live on DeepSeek's website, app and API under the same deepseek-flash name at unchanged prices; MIT-licensed weights on Hugging Face and ModelScope. DeepSeek also opened its in-house Search & Fetch APIs to everyone at $0.75 per 1,000 calls per endpoint. <https://api-docs.deepseek.com/news/news261017>
+- **2026-10-16 — REA /reverse-engineer skill in Perplexity Computer** (Perplexity, Agents): Computer can now use REA (Reverse Engineer Anything), morluto's open-source MIT-licensed toolkit, to inspect how an app works without its source code and then build a working version. Tasks that use /reverse-engineer are free through Oct 31, up to 10,000 credits per user. Announced on Perplexity's official Computer account on X. <https://x.com/AskPerplexity/status/2111120664543596957>
+- **2026-10-16 — Glimpse (visual thinking model)** (Elorian, Model): Elorian's first model reasons over images and video: tracking objects through motion, reasoning from other viewpoints and predicting physical consequences, with multimodal tools and subagents. Available today via API and Elorian's chat UI at $0.60 / $3.00 per 1M input/output tokens; benchmarks are Elorian's own. <https://elorian.ai/blog/introducing-glimpse>
+- **2026-10-16 — RTX Spark laptops go on sale** (NVIDIA, Hardware): Windows laptops built on NVIDIA's RTX Spark superchip (Blackwell RTX GPU + Grace CPU) with up to 128GB of unified memory and up to 1 petaflop of FP4 AI compute, aimed at local AI models and agents, creative apps and gaming. Available from ASUS, Dell, HP, Lenovo, Microsoft and MSI, starting at $2,599; pricing varies by region. <https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs>
+- **2026-10-16 — Cline Cloud sessions (v4.1.25)** (Cline, Dev tools): Cline can now run a task in a hosted sandbox on a GitHub repo and branch you pick; cloud tasks show in Recent and History, notify you when they finish, and keep running after you close your editor. Rolling out gradually. <https://github.com/cline/cline/releases/tag/v4.1.25>
 - **2026-10-16 — Beam 1.0 (open weights, Apache 2.0)** (Reflection, Model): Reflection's first open-weight model: a 501B-total / 23B-active MoE with a 1M-token context, built for coding, reasoning and agentic work. Weights in BF16, FP8 and NVFP4 on Hugging Face; also on Reflection's API and partners including Ollama, LM Studio, OpenRouter and OpenCode. <https://reflection.ai/blog/beam-is-available>
+- **2026-10-15 — SPACE sandbox platform open-sourced (Apache 2.0)** (Perplexity, Dev tools): SPACE, the sandbox platform that runs every Perplexity Computer session, is now open source: isolated Firecracker microVMs with pause/resume, snapshots, session branching, and network and credential controls kept outside the sandbox. Akamai, Crusoe and CoreWeave are offering or documenting deployments. <https://www.perplexity.ai/hub/blog/open-sourcing-space>
 - **2026-10-15 — FLUX 3 Image Klein (open weights)** (Black Forest Labs, Creative): A 5.6B-parameter open-weight image model for text-to-image, editing and multi-reference generation (up to 10 reference images), with native 4K output and bounding-box layout control. Weights on Hugging Face under the FLUX Kommunity License; also on the BFL API. <https://bfl.ai/blog/flux-3-image-klein>
 - **2026-10-15 — Krea 3** (Krea, Creative): Krea's new image-editing model for production work: most edits return in under 8 seconds at native 2K, with characters and products kept consistent across references. Live on krea.ai and via fal, Replicate, OpenRouter, Together AI and others. <https://www.krea.ai/blog/introducing-krea-3>
 - **2026-10-15 — GPT-Live-1.1 (ChatGPT Voice)** (OpenAI, Model): Updated voice model for ChatGPT Voice with more natural accents and new voices in French, German, Hindi, Japanese, Korean and Mexican Spanish. Availability varies by region and account. <https://deploymentsafety.openai.com/gpt-live-1-1/introduction>
