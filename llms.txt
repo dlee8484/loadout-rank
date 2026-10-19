@@ -1,8 +1,8 @@
 # Loadout Rank
 
-> Ranked AI tools by use case (8 categories, 10 tools each) plus a dated list of recent AI releases. Scores are provisional editorial seed scores as of 2026-10-18.
+> Ranked AI tools by use case (8 categories, 10 tools each) plus a dated list of recent AI releases. Scores are provisional editorial seed scores as of 2026-10-19.
 
-Key facts: updated 2026-10-18; weights planned Quality 40 / Adoption 20 / Value 15 / Ease 15 / Trust 10; no affiliate or sponsored links currently.
+Key facts: updated 2026-10-19; weights planned Quality 40 / Adoption 20 / Value 15 / Ease 15 / Trust 10; no affiliate or sponsored links currently.
 
 ## Main
 - [Rankings (Markdown, citable)](https://dlee8484.github.io/loadout-rank/rankings.md): all rankings, scores, release list with dates and sources
@@ -23,12 +23,12 @@ Key facts: updated 2026-10-18; weights planned Quality 40 / Adoption 20 / Value 
 - [LangGraph vs Mastra](https://dlee8484.github.io/loadout-rank/langgraph-vs-mastra.html)
 
 ## Latest releases
+- [MiniMax: MiniMax M3.1 Flash](https://www.minimax.io/blog/minimax-m31f): released 2026-10-19 (primary source)
 - [DeepSeek: DeepSeek-V4.1-Flash-1017 (open weights, MIT) + Search & Fetch APIs](https://api-docs.deepseek.com/news/news261017): released 2026-10-17 (primary source)
 - [Perplexity: REA /reverse-engineer skill in Perplexity Computer](https://x.com/AskPerplexity/status/2111120664543596957): released 2026-10-16 (primary source)
 - [Elorian: Glimpse (visual thinking model)](https://elorian.ai/blog/introducing-glimpse): released 2026-10-16 (primary source)
 - [NVIDIA: RTX Spark laptops go on sale](https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs): released 2026-10-16 (primary source)
 - [Cline: Cline Cloud sessions (v4.1.25)](https://github.com/cline/cline/releases/tag/v4.1.25): released 2026-10-16 (primary source)
-- [Reflection: Beam 1.0 (open weights, Apache 2.0)](https://reflection.ai/blog/beam-is-available): released 2026-10-16 (primary source)
 - [All releases with summaries](https://dlee8484.github.io/loadout-rank/rankings.md) and [RSS](https://dlee8484.github.io/loadout-rank/feed.xml)
 
 
