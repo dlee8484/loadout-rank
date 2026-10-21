@@ -1,5 +1,5 @@
 {
- "updated": "Oct 20, 2026",
+ "updated": "Oct 21, 2026",
  "tools": [
   {
    "cat": "Coding agents & AI IDEs",
@@ -643,6 +643,62 @@
   }
  ],
  "releases": [
+  {
+   "date": "2026-10-20",
+   "org": "Mistral",
+   "title": "Voxtral 3 speech models + voice agent API",
+   "summary": "A new family of speech models plus a voice agent API that chains realtime transcription, a Mistral LLM for reasoning and tool calls, and speech output in one streaming pipeline; it can answer and place calls over SIP and run in browsers and apps over WebRTC. Voxtral Small Transcribe 3 handles 50+ languages with diarization and context biasing ($0.004/min); Voxtral Mini Transcribe 3 is 4B parameters ($0.0035/min batch); Mini Transcribe Realtime 3 targets sub-500ms latency ($0.008/min); Voxtral Mini TTS 3 covers 35+ languages and 50+ dialects with emotion and pacing control ($13 per 1M characters). Voice agent API from $0.04/min with Mistral Small 4. Via Mistral's API or self-deployment; comparisons are Mistral's own.",
+   "url": "https://mistral.ai/news/voxtral-3/",
+   "type": "Model"
+  },
+  {
+   "date": "2026-10-20",
+   "org": "Ornith",
+   "title": "Ornith-1.5-122B (open weights, MIT)",
+   "summary": "A 122B mixture-of-experts reasoning model for coding and agent work that Ornith says serves on a single 80GB GPU; 262,144-token context, extendable to about 1M with YaRN. Lab-reported scores: SWE-bench Verified 84.5, Terminal-Bench 2.1 81.2, SWE-bench Pro 76.9. MIT-licensed weights on Hugging Face in BF16 plus FP8, NVFP4, GGUF and MLX builds, and on Ollama (ollama run ornith-1.5:122b). Ornith-1.5 extends Ornith-1.0, which was built on Qwen3.5 and Gemma 4. Benchmarks are Ornith's own.",
+   "url": "https://huggingface.co/ornith-ai/Ornith-1.5-122B",
+   "type": "Model"
+  },
+  {
+   "date": "2026-10-20",
+   "org": "Bria",
+   "title": "Fibo 2.0 (open weights, image generation + editing)",
+   "summary": "Bria's 8B-parameter model puts text-to-image and instruction-based image editing in one set of weights, with masked edits and up to 4 reference images, structured JSON (VGL) prompts and better text rendering. Two checkpoints: Fibo 2.0 Dev (full base for fine-tuning) and Edit Turbo (4-step editing). Bria cites #1 among open-weights models for image editing on Artificial Analysis as of Oct 20. Trained only on licensed data; weights are CC BY-NC 4.0 (commercial use needs a Bria agreement); also on the Bria API, fal and ComfyUI nodes.",
+   "url": "https://docs.bria.ai/whats-new/fibo-2",
+   "type": "Creative"
+  },
+  {
+   "date": "2026-10-20",
+   "org": "Hao AI Lab",
+   "title": "FastH3 Omni (open-weight fast video + audio)",
+   "summary": "FastVideo (Hao AI Lab, UC San Diego) with Nuva Lab open-sourced a distilled MiniMax H3 model for reference-guided video with synchronized stereo audio: a prompt plus up to 9 images, 3 videos and 3 audio clips (12 references max) produces 5\u201315 second clips at 24 fps in eight transformer evaluations. FastVideo measured up to ~12\u00d7 lower end-to-end latency than the base model on eight GB200 GPUs; NVFP4 weights and recipes target DGX Spark and RTX 5090, with a ComfyUI FP8 build. Weights use the MiniMax H3 community license.",
+   "url": "https://haoailab.com/blogs/fastvideo-omniref-update/",
+   "type": "Creative"
+  },
+  {
+   "date": "2026-10-20",
+   "org": "Gradium",
+   "title": "Phonon on-device text-to-speech (open weights)",
+   "summary": "Tiny streaming TTS models that run offline on phones, laptops, a Raspberry Pi 5 and inside a browser tab: Phonon 31m (English, 64.5 MB, Apache 2.0) and Phonon 40m in English, French, German, Spanish and Portuguese plus a multilingual model (CC BY-NC 4.0, gated). Rust runtime with Python, npm, Swift and Android bindings and an OpenAI-compatible speech server; Gradium says up to 22\u00d7 faster than real time on an iPhone 16 Pro. Stable runtime v0.4.0 published Oct 20; Gradium's announcement post is dated Oct 21.",
+   "url": "https://gradium.ai/phonon",
+   "type": "Model"
+  },
+  {
+   "date": "2026-10-20",
+   "org": "humans&",
+   "title": "Ampersand v0.1 (collaborator model)",
+   "summary": "humans&'s first model is built to help groups of people pursue individual and shared goals over long periods, trained with reinforcement learning on long-horizon social simulations; it can choose to reply or stay silent in a group conversation. Built on GLM 5.3 (about 744B total / 40B active parameters, 1,048,576-token context), text only, API-only via the Agents API as ampersand-v0.1. humans& calls its evaluation results tentative.",
+   "url": "https://ampersand.humansand.ai/blog/model-card.html",
+   "type": "Agents"
+  },
+  {
+   "date": "2026-10-20",
+   "org": "Asymptote Labs",
+   "title": "Beacon: shared memory for coding agents (open source, MIT)",
+   "summary": "Officially launched Oct 20 alongside a $5.5M seed round: Beacon captures session history across Claude Code, Cursor, Codex, OpenCode, Cline and 20+ other harnesses into local JSONL, then turns useful workflows, corrections and debugging patterns into reviewed knowledge that future agents retrieve through MCP or Agent Skills. Local-first; MIT-licensed on GitHub (repo public before the launch).",
+   "url": "https://github.com/Asymptote-Labs/agent-beacon",
+   "type": "Dev tools"
+  },
   {
    "date": "2026-10-19",
    "org": "Cloudflare",
