@@ -1,8 +1,8 @@
 # Loadout Rank
 
-> Ranked AI tools by use case (8 categories, 10 tools each) plus a dated list of recent AI releases. Scores are provisional editorial seed scores as of 2026-10-21.
+> Ranked AI tools by use case (8 categories, 10 tools each) plus a dated list of recent AI releases. Scores are provisional editorial seed scores as of 2026-10-22.
 
-Key facts: updated 2026-10-21; weights planned Quality 40 / Adoption 20 / Value 15 / Ease 15 / Trust 10; no affiliate or sponsored links currently.
+Key facts: updated 2026-10-22; weights planned Quality 40 / Adoption 20 / Value 15 / Ease 15 / Trust 10; no affiliate or sponsored links currently.
 
 ## Main
 - [Rankings (Markdown, citable)](https://dlee8484.github.io/loadout-rank/rankings.md): all rankings, scores, release list with dates and sources
@@ -23,12 +23,12 @@ Key facts: updated 2026-10-21; weights planned Quality 40 / Adoption 20 / Value 
 - [LangGraph vs Mastra](https://dlee8484.github.io/loadout-rank/langgraph-vs-mastra.html)
 
 ## Latest releases
-- [Mistral: Voxtral 3 speech models + voice agent API](https://mistral.ai/news/voxtral-3/): released 2026-10-20 (primary source)
-- [Ornith: Ornith-1.5-122B (open weights, MIT)](https://huggingface.co/ornith-ai/Ornith-1.5-122B): released 2026-10-20 (primary source)
-- [Bria: Fibo 2.0 (open weights, image generation + editing)](https://docs.bria.ai/whats-new/fibo-2): released 2026-10-20 (primary source)
-- [Hao AI Lab: FastH3 Omni (open-weight fast video + audio)](https://haoailab.com/blogs/fastvideo-omniref-update/): released 2026-10-20 (primary source)
-- [Gradium: Phonon on-device text-to-speech (open weights)](https://gradium.ai/phonon): released 2026-10-20 (primary source)
-- [humans&: Ampersand v0.1 (collaborator model)](https://ampersand.humansand.ai/blog/model-card.html): released 2026-10-20 (primary source)
+- [Anthropic: Claude Duet (proactive agent app, research preview)](https://claude.com/resources/articles/claude-duet): released 2026-10-21 (primary source; our entry: https://dlee8484.github.io/loadout-rank/#rel-2026-10-21-anthropic-claude-duet)
+- [Recursive: Flint (open-weight local coding model, Apache 2.0)](https://recursive.com/updates/introducing-recursive-flint): released 2026-10-21 (primary source; our entry: https://dlee8484.github.io/loadout-rank/#rel-2026-10-21-recursive-flint)
+- [Anthropic: Claude Security continuous scanning (public beta)](https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes): released 2026-10-21 (primary source; our entry: https://dlee8484.github.io/loadout-rank/#rel-2026-10-21-anthropic-claude-security-continuous-scanning)
+- [Base Labs (Baseten): mammoth-1 and elephant-1 decision models (open weights, MIT)](https://labs.baseten.co/articles/mammoth-1-and-elephant-1-frontier-decision-models): released 2026-10-21 (primary source; our entry: https://dlee8484.github.io/loadout-rank/#rel-2026-10-21-base-labs-baseten-mammoth-1-and-elephant-1-decision-models)
+- [Perplexity: Perplexity Computer runs fully local on Mac](https://www.perplexity.ai/hub/blog/perplexity-computer-now-runs-fully-local-on-mac): released 2026-10-20 (primary source; our entry: https://dlee8484.github.io/loadout-rank/#rel-2026-10-20-perplexity-perplexity-computer-runs-fully-local-on-mac)
+- [Google: TorchTPU: native PyTorch on TPUs (open source, Apache 2.0)](https://cloud.google.com/blog/topics/ai-infrastructure/torchtpu-is-now-open-source-run-native-pytorch-on-tpus): released 2026-10-20 (primary source; our entry: https://dlee8484.github.io/loadout-rank/#rel-2026-10-20-google-torchtpu-native-pytorch-on-tpus)
 - [All releases with summaries](https://dlee8484.github.io/loadout-rank/rankings.md) and [RSS](https://dlee8484.github.io/loadout-rank/feed.xml)
 
 
