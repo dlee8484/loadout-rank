@@ -1,8 +1,9 @@
 # Loadout Rank
 
-> Ranked AI tools by use case (8 categories, 10 tools each) plus a dated list of recent AI releases. Scores are provisional editorial seed scores as of 2026-10-22.
+> Ranked AI tools by use case (8 categories, 10 tools each) plus a dated list of recent AI releases. Scores are provisional editorial seed scores as of 2026-10-23.
 
-Key facts: updated 2026-10-22; weights planned Quality 40 / Adoption 20 / Value 15 / Ease 15 / Trust 10; no affiliate or sponsored links currently.
+Key facts: updated 2026-10-23; weights planned Quality 40 / Adoption 20 / Value 15 / Ease 15 / Trust 10; no affiliate or sponsored links currently.
+Publisher: Loadout Rank, independent (not affiliated with any listed tool); official X account: https://x.com/LoadoutRank
 
 ## Main
 - [Rankings (Markdown, citable)](https://dlee8484.github.io/loadout-rank/rankings.md): all rankings, scores, release list with dates and sources
@@ -23,12 +24,12 @@ Key facts: updated 2026-10-22; weights planned Quality 40 / Adoption 20 / Value 
 - [LangGraph vs Mastra](https://dlee8484.github.io/loadout-rank/langgraph-vs-mastra.html)
 
 ## Latest releases
+- [Abacus.AI: Smaug-Nemotron-3.5 (agentic coding fine-tune, open weights)](https://huggingface.co/abacusai/Smaug-Nemotron-3.5): released 2026-10-23 (primary source; our entry: https://dlee8484.github.io/loadout-rank/#rel-2026-10-23-abacus-ai-smaug-nemotron-3-5)
+- [OpenAI: Decisions API generally available (GPT-6 Luna)](https://openai.com/index/decisions-api/): released 2026-10-22 (primary source; our entry: https://dlee8484.github.io/loadout-rank/#rel-2026-10-22-openai-decisions-api-generally-available)
+- [Hugging Face: Carbon-X: open model you can chat with about DNA (Apache 2.0)](https://huggingface.co/HuggingFaceBio/Carbon-X): released 2026-10-22 (primary source; our entry: https://dlee8484.github.io/loadout-rank/#rel-2026-10-22-hugging-face-carbon-x-open-model-you-can-chat)
+- [KRAFTON: Raon-1 mini preview (open weights, Apache 2.0)](https://huggingface.co/KRAFTON/Raon-1-mini-preview): released 2026-10-21 (primary source; our entry: https://dlee8484.github.io/loadout-rank/#rel-2026-10-21-krafton-raon-1-mini-preview)
 - [Anthropic: Claude Duet (proactive agent app, research preview)](https://claude.com/resources/articles/claude-duet): released 2026-10-21 (primary source; our entry: https://dlee8484.github.io/loadout-rank/#rel-2026-10-21-anthropic-claude-duet)
 - [Recursive: Flint (open-weight local coding model, Apache 2.0)](https://recursive.com/updates/introducing-recursive-flint): released 2026-10-21 (primary source; our entry: https://dlee8484.github.io/loadout-rank/#rel-2026-10-21-recursive-flint)
-- [Anthropic: Claude Security continuous scanning (public beta)](https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes): released 2026-10-21 (primary source; our entry: https://dlee8484.github.io/loadout-rank/#rel-2026-10-21-anthropic-claude-security-continuous-scanning)
-- [Base Labs (Baseten): mammoth-1 and elephant-1 decision models (open weights, MIT)](https://labs.baseten.co/articles/mammoth-1-and-elephant-1-frontier-decision-models): released 2026-10-21 (primary source; our entry: https://dlee8484.github.io/loadout-rank/#rel-2026-10-21-base-labs-baseten-mammoth-1-and-elephant-1-decision-models)
-- [Perplexity: Perplexity Computer runs fully local on Mac](https://www.perplexity.ai/hub/blog/perplexity-computer-now-runs-fully-local-on-mac): released 2026-10-20 (primary source; our entry: https://dlee8484.github.io/loadout-rank/#rel-2026-10-20-perplexity-perplexity-computer-runs-fully-local-on-mac)
-- [Google: TorchTPU: native PyTorch on TPUs (open source, Apache 2.0)](https://cloud.google.com/blog/topics/ai-infrastructure/torchtpu-is-now-open-source-run-native-pytorch-on-tpus): released 2026-10-20 (primary source; our entry: https://dlee8484.github.io/loadout-rank/#rel-2026-10-20-google-torchtpu-native-pytorch-on-tpus)
 - [All releases with summaries](https://dlee8484.github.io/loadout-rank/rankings.md) and [RSS](https://dlee8484.github.io/loadout-rank/feed.xml)
 
 

@@ -1,5 +1,5 @@
 {
- "updated": "Oct 22, 2026",
+ "updated": "Oct 23, 2026",
  "tools": [
   {
    "cat": "Coding agents & AI IDEs",
@@ -644,6 +644,42 @@
  ],
  "releases": [
   {
+   "date": "2026-10-23",
+   "org": "Abacus.AI",
+   "title": "Smaug-Nemotron-3.5 (agentic coding fine-tune, open weights)",
+   "summary": "Abacus.AI's supervised fine-tune of NVIDIA Nemotron 3.5 Super VL (120B total / 12B active hybrid Mamba-2 + MoE + attention, text, image and video in, up to 1M-token context) on filtered multi-turn, tool-using coding trajectories. The architecture is unchanged, so it's a drop-in replacement wherever the base model runs. Abacus reports gains in agentic coding over the base (Terminal-Bench 2.1 69.1 vs 60.7, SWE-bench Verified 72.3 vs 71.1, DeepSWE 27.4 vs 24.7) with reasoning, coding and vision scores at parity. BF16 weights plus an NVFP4 build on Hugging Face under the OpenMDW 1.1 license inherited from the base. Announced Oct 23 by Abacus CEO Bindu Reddy; the Hugging Face repo was created Oct 18. Benchmarks are Abacus's own.",
+   "url": "https://huggingface.co/abacusai/Smaug-Nemotron-3.5",
+   "type": "Model",
+   "anchor": "rel-2026-10-23-abacus-ai-smaug-nemotron-3-5"
+  },
+  {
+   "date": "2026-10-22",
+   "org": "OpenAI",
+   "title": "Decisions API generally available (GPT-6 Luna)",
+   "summary": "A dedicated endpoint for the small, bounded calls apps and agents make all day: ask up to 400 questions per request about text, images or JSON and get back typed answers instead of generated text: a probability that a condition is true (predicate), one option from a fixed list (choice), or a rubric score. OpenAI says it is up to 10x faster than asking GPT-6 Luna through the Responses API. New since the Oct 6 beta: prompt caching, JSON input, images inside individual questions, US/EU regional processing and a native GPT-Live integration (for example, picking an avatar's reaction while someone talks). $0.10 per 1M input tokens, $0.01 cached, and no output-token charges.",
+   "url": "https://openai.com/index/decisions-api/",
+   "type": "Dev tools",
+   "anchor": "rel-2026-10-22-openai-decisions-api-generally-available"
+  },
+  {
+   "date": "2026-10-22",
+   "org": "Hugging Face",
+   "title": "Carbon-X: open model you can chat with about DNA (Apache 2.0)",
+   "summary": "A 14.8B dense model built from Qwen3-14B and trained jointly on DNA and text, with a 40,960-token context: paste a sequence and ask whether a mutation looks benign or pathogenic, which regions control gene activity, which organism group it comes from, or have it continue or write sequences, with explanations. Hugging Face reports a 66.7% average across five DNA benchmarks, close to GPT-6.1 Sol's 67.5%. Weights fit on one 80GB GPU in bfloat16 (GGUF builds too), so sensitive sequences can stay on your own hardware. Built with Zhongguancun Academy, TIGEM and the University of Naples Federico II. Not clinically validated and not for medical decisions; benchmarks are Hugging Face's own.",
+   "url": "https://huggingface.co/HuggingFaceBio/Carbon-X",
+   "type": "Model",
+   "anchor": "rel-2026-10-22-hugging-face-carbon-x-open-model-you-can-chat"
+  },
+  {
+   "date": "2026-10-21",
+   "org": "KRAFTON",
+   "title": "Raon-1 mini preview (open weights, Apache 2.0)",
+   "summary": "The PUBG publisher's AI lab trained this open language model from scratch: a 28.8B-total / 4.3B-active mixture-of-experts model with KRAFTON's own linear-attention design and a 262,144-token context, strongest at Korean conversation, instruction following and agent tool calling (works with Hermes Agent, Pi and OpenCode). KRAFTON reports SWE-bench Verified 70.8, GPQA Diamond 84.3 and AIME 2026 93.3. Trained on seven languages. An NVFP4 build runs on a single RTX 5090 (32GB), with MXFP8, GGUF and MLX builds plus a DFlash2 draft model for faster decoding. Apache 2.0 weights on Hugging Face (access request with automatic approval) and a free playground for a limited time. A preview: specs may change before the final release and technical report. Benchmarks are KRAFTON's own.",
+   "url": "https://huggingface.co/KRAFTON/Raon-1-mini-preview",
+   "type": "Model",
+   "anchor": "rel-2026-10-21-krafton-raon-1-mini-preview"
+  },
+  {
    "date": "2026-10-21",
    "org": "Anthropic",
    "title": "Claude Duet (proactive agent app, research preview)",
@@ -768,6 +804,15 @@
    "url": "https://github.com/Asymptote-Labs/agent-beacon",
    "type": "Dev tools",
    "anchor": "rel-2026-10-20-asymptote-labs-beacon-shared-memory-for-coding-agents"
+  },
+  {
+   "date": "2026-10-19",
+   "org": "Google",
+   "title": "Gemini API CLI (gemini-api, experimental preview)",
+   "summary": "A zero-dependency command-line binary for macOS, Linux and Windows that puts the Gemini API in your terminal and in any coding agent with shell access (Claude Code, Codex, Cursor, Antigravity and others): run prompts, generate images, video, speech and music straight to disk, analyze PDFs, images and YouTube videos, transcribe audio to SRT, and start background Managed Agents such as Deep Research. Media commands print only the output file path, and every command describes itself offline (--help, --schema, --dry-run, JSON output with --jq) so agents stop guessing model IDs or dumping base64 into their context. Apache 2.0 on GitHub; needs a Gemini API key. Published Oct 19 (v0.4.3); Google's developer push on X came Oct 22.",
+   "url": "https://aistudio.google.com/learn/introducing-the-gemini-api-cli",
+   "type": "Dev tools",
+   "anchor": "rel-2026-10-19-google-gemini-api-cli"
   },
   {
    "date": "2026-10-19",
