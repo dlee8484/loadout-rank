@@ -1,5 +1,5 @@
 {
- "updated": "Oct 23, 2026",
+ "updated": "Oct 24, 2026",
  "tools": [
   {
    "cat": "Coding agents & AI IDEs",
@@ -645,12 +645,66 @@
  "releases": [
   {
    "date": "2026-10-23",
+   "org": "Moonshot AI",
+   "title": "Kimi K3.1 Pro + K3.1 Pro Highspeed (open weights due by Nov 4)",
+   "summary": "Moonshot's new flagship is a further post-trained Kimi K3: a 2.8T-total / 104B-active multimodal mixture-of-experts model with a 1M-token context, plus a Highspeed variant Moonshot says runs 2\u20133\u00d7 faster. Pitched at long-horizon coding (including full game projects in Unity, Unreal Engine and Godot), parametric 3D modeling by scripting Blender and CAD tools, and finance work. Lab-reported: Terminal-Bench 4.0 65.7% (Claude Opus 5.5 66.4%, GPT-6 Astra 58.2%), and on Moonshot's internal hallucination stress test the claim-level error rate fell from 23.4% (K3) to 8.3%. Moonshot says it removed cyber-related training data for the open-weight release. Live now on Kimi.ai and the Kimi apps, Kimi Work (3.1.0+), Kimi Code (/model) and the Kimi API (kimi-k3.1-pro, kimi-k3.1-pro-highspeed); full weights due by Nov 4, 2026. Benchmarks are Moonshot's own.",
+   "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+   "type": "Model",
+   "anchor": "rel-2026-10-23-moonshot-ai-kimi-k3-1-pro-k3-1-pro"
+  },
+  {
+   "date": "2026-10-23",
+   "org": "NVIDIA",
+   "title": "Nemotron 3.5 Bolt E4B 4GB (open small model for local agents)",
+   "summary": "The 4GB Bolt promised with Nemotron 3.5 has shipped: an 8B (4B effective) model post-trained by NVIDIA from Gemma 4 E4B for voice and device assistants, in-game NPCs and robot interfaces running locally on GeForce RTX, Jetson, RTX Spark and DGX Spark. Multi-turn tool calling, a conversational mode for short speech-ready replies, reasoning you can switch on or off, 64K context and 35 languages; ships as a ~4GB Q4_K_M build plus BF16 and a DFlash speculative-decoding drafter. NVIDIA reports ~40% higher average scores than its Nemotron 3 Nano 4B on its conversational-agent benchmark set and up to ~80% fewer output tokens than peers with reasoning on. Open weights on Hugging Face under OpenMDW-1.1. Benchmarks are NVIDIA's own.",
+   "url": "https://research.nvidia.com/labs/nemotron/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB/",
+   "type": "Model",
+   "anchor": "rel-2026-10-23-nvidia-nemotron-3-5-bolt-e4b-4gb"
+  },
+  {
+   "date": "2026-10-23",
+   "org": "MiniMax",
+   "title": "MiniMax M3.1 Flash open weights (MiniMax Community License)",
+   "summary": "The weights MiniMax promised at launch are now on Hugging Face: about 428B total / 23B active parameters, text, image and video in, up to 1M-token context, with the DSpark speculative-decoding draft head included and SGLang, vLLM and TokenSpeed as the recommended servers. Not an OSI license: non-commercial use is free; commercial use requires displaying \"Built with MiniMax M3.1-Flash\" and a one-time notice to MiniMax, and products with more than $20M in yearly revenue need MiniMax's prior written authorization. Together AI, Fireworks, Modular and DigitalOcean offered hosted versions on day one.",
+   "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash",
+   "type": "Model",
+   "anchor": "rel-2026-10-23-minimax-minimax-m3-1-flash-open-weights"
+  },
+  {
+   "date": "2026-10-23",
+   "org": "Cursor",
+   "title": "Computer Use: agents drive desktop apps",
+   "summary": "Cursor's agents can now control a computer, clicking and typing in desktop apps such as the iOS Simulator to test the features they build. For self-hosted workers it is an explicit opt-in on macOS and Linux (agent worker --computer-use start); macOS needs Accessibility and Screen Recording permissions for the Cursor Computer Use helper, and Linux workers can also share the agent's desktop so teammates can watch or take control.",
+   "url": "https://x.com/cursor_ai/status/2113661506634305834",
+   "type": "Agents",
+   "anchor": "rel-2026-10-23-cursor-computer-use-agents-drive-desktop-apps"
+  },
+  {
+   "date": "2026-10-23",
    "org": "Abacus.AI",
    "title": "Smaug-Nemotron-3.5 (agentic coding fine-tune, open weights)",
    "summary": "Abacus.AI's supervised fine-tune of NVIDIA Nemotron 3.5 Super VL (120B total / 12B active hybrid Mamba-2 + MoE + attention, text, image and video in, up to 1M-token context) on filtered multi-turn, tool-using coding trajectories. The architecture is unchanged, so it's a drop-in replacement wherever the base model runs. Abacus reports gains in agentic coding over the base (Terminal-Bench 2.1 69.1 vs 60.7, SWE-bench Verified 72.3 vs 71.1, DeepSWE 27.4 vs 24.7) with reasoning, coding and vision scores at parity. BF16 weights plus an NVFP4 build on Hugging Face under the OpenMDW 1.1 license inherited from the base. Announced Oct 23 by Abacus CEO Bindu Reddy; the Hugging Face repo was created Oct 18. Benchmarks are Abacus's own.",
    "url": "https://huggingface.co/abacusai/Smaug-Nemotron-3.5",
    "type": "Model",
    "anchor": "rel-2026-10-23-abacus-ai-smaug-nemotron-3-5"
+  },
+  {
+   "date": "2026-10-22",
+   "org": "Canva",
+   "title": "Canva Craft image model",
+   "summary": "Canva's first in-house image model, trained from scratch by Canva Research for design work: it plans the composition (elements, layout, scale and any text) before rendering, at up to 2K resolution in 30+ aspect ratios, with text in 55 languages, and its outputs convert into editable layers with Magic Layers. Available to all Canva users globally via Dream Lab and to developers through Canva's public API; Canva MCP support is coming soon. Canva cites a #4 debut on the DesignArena image leaderboard.",
+   "url": "https://www.canva.com/newsroom/news/canva-craft/",
+   "type": "Creative",
+   "anchor": "rel-2026-10-22-canva-canva-craft-image-model"
+  },
+  {
+   "date": "2026-10-22",
+   "org": "Ideogram",
+   "title": "Ideogram Vector 1.0 (text or image to editable SVG)",
+   "summary": "Ideogram's first vector model generates clean, editable SVGs with smooth gradients and sharp typography from a prompt, or converts an existing image into a scalable vector, for logos, print and merch, labels and illustrations. Live in Ideogram and the API, where text-to-vector costs $0.13 / $0.16 / $0.20 per SVG at low / medium / high quality ($0.32 for high with references) and image-to-vector costs $0.10 per image.",
+   "url": "https://ideogram.ai/models/vector/",
+   "type": "Creative",
+   "anchor": "rel-2026-10-22-ideogram-ideogram-vector-1-0"
   },
   {
    "date": "2026-10-22",
@@ -854,7 +908,7 @@
    "date": "2026-10-19",
    "org": "MiniMax",
    "title": "MiniMax M3.1 Flash",
-   "summary": "Next-gen Flash model for agentic tasks, coding, computer use and cybersecurity. MiniMax reports ~3\u00d7 faster online inference and ~70% lower usage cost vs its predecessor; vendor scores include DeepSWE v1.1 73.7%, OSWorld V2 61.7 and CyberGym 82%. Flat API pricing $0.15 / $0.60 / $0.015 per 1M input / output / cached-input tokens; 1M context; multimodal. Was the anonymous Space Bunny Alpha on OpenRouter. Live on the MiniMax API, M Plan and MiniMax Code; open weights promised later (MiniMax says Oct 23). Benchmarks are MiniMax's own.",
+   "summary": "Next-gen Flash model for agentic tasks, coding, computer use and cybersecurity. MiniMax reports ~3\u00d7 faster online inference and ~70% lower usage cost vs its predecessor; vendor scores include DeepSWE v1.1 73.7%, OSWorld V2 61.7 and CyberGym 82%. Flat API pricing $0.15 / $0.60 / $0.015 per 1M input / output / cached-input tokens; 1M context; multimodal. Was the anonymous Space Bunny Alpha on OpenRouter. Live on the MiniMax API, M Plan and MiniMax Code; open weights followed on Oct 23 (see that entry). Benchmarks are MiniMax's own.",
    "url": "https://www.minimax.io/blog/minimax-m31f",
    "type": "Model",
    "anchor": "rel-2026-10-19-minimax-minimax-m3-1-flash"
@@ -998,7 +1052,7 @@
    "date": "2026-10-15",
    "org": "NVIDIA",
    "title": "Nemotron 3.5 Super VL and Bolt",
-   "summary": "Open models for agents: Super VL (120B) for servers, Bolt 74B-A9B sized for 24GB local machines with llama.cpp, Ollama, LM Studio and vLLM support. A 4GB Bolt E4B is due Oct 23.",
+   "summary": "Open models for agents: Super VL (120B) for servers, Bolt 74B-A9B sized for 24GB local machines with llama.cpp, Ollama, LM Studio and vLLM support. The 4GB Bolt E4B followed on Oct 23 (see that entry).",
    "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
    "type": "Model",
    "anchor": "rel-2026-10-15-nvidia-nemotron-3-5-super-vl-and-bolt"
