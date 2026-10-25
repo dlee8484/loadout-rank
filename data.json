@@ -1,5 +1,5 @@
 {
- "updated": "Oct 24, 2026",
+ "updated": "Oct 25, 2026",
  "tools": [
   {
    "cat": "Coding agents & AI IDEs",
@@ -645,6 +645,15 @@
  "releases": [
   {
    "date": "2026-10-23",
+   "org": "Anthropic",
+   "title": "MCP Tasks and Elicitations in Claude Code (public beta)",
+   "summary": "Claude Code now supports two MCP extensions that plugin and MCP-server builders can use today. Tasks let a server run a long job (deep research, a report export, a build) on its own: Claude's tool call returns as soon as the server accepts the job, Claude keeps working, and the result comes back when the job ends; running tasks show up in /tasks, where you can stop them, and a task on a remote server keeps running after you exit and can be picked up again by resuming the session. Elicitations let a server pause mid-task to ask you for input, such as confirming a refund or filling in a missing detail. Public beta in the Claude Code CLI v2.1.304 or later (terminal sessions, Agent SDK sessions and GitHub Actions runs); not yet in the VS Code extension or desktop app, and not on third-party providers such as Amazon Bedrock. Anthropic says more Claude products are coming soon.",
+   "url": "https://code.claude.com/docs/en/mcp",
+   "type": "Dev tools",
+   "anchor": "rel-2026-10-23-anthropic-mcp-tasks-and-elicitations-in-claude-code"
+  },
+  {
+   "date": "2026-10-23",
    "org": "Moonshot AI",
    "title": "Kimi K3.1 Pro + K3.1 Pro Highspeed (open weights due by Nov 4)",
    "summary": "Moonshot's new flagship is a further post-trained Kimi K3: a 2.8T-total / 104B-active multimodal mixture-of-experts model with a 1M-token context, plus a Highspeed variant Moonshot says runs 2\u20133\u00d7 faster. Pitched at long-horizon coding (including full game projects in Unity, Unreal Engine and Godot), parametric 3D modeling by scripting Blender and CAD tools, and finance work. Lab-reported: Terminal-Bench 4.0 65.7% (Claude Opus 5.5 66.4%, GPT-6 Astra 58.2%), and on Moonshot's internal hallucination stress test the claim-level error rate fell from 23.4% (K3) to 8.3%. Moonshot says it removed cyber-related training data for the open-weight release. Live now on Kimi.ai and the Kimi apps, Kimi Work (3.1.0+), Kimi Code (/model) and the Kimi API (kimi-k3.1-pro, kimi-k3.1-pro-highspeed); full weights due by Nov 4, 2026. Benchmarks are Moonshot's own.",
@@ -768,6 +777,15 @@
    "url": "https://labs.baseten.co/articles/mammoth-1-and-elephant-1-frontier-decision-models",
    "type": "Model",
    "anchor": "rel-2026-10-21-base-labs-baseten-mammoth-1-and-elephant-1-decision-models"
+  },
+  {
+   "date": "2026-10-20",
+   "org": "Simular",
+   "title": "Agent S4: computer-use agent that evolves its own tools (open source, Apache 2.0)",
+   "summary": "Simular's research release in its open-source Agent-S repo, with the paper Evolving Agent Interfaces. Instead of clicking through apps the way a person would, a Builder agent studies a computer-use agent's attempts and writes and revises a small Python tool library (a shadow interface) for it, and population-based evolution keeps the versions that score best on held-out tasks. Simular reports 21.3% on OSWorld V2, which scores strict pass/fail, with Qwen3.8-27B: 3.8x the same model with fixed interfaces and above its reported GPT-5.5 (13.0%) and Claude Opus 4.8 (20.6%) runs, at roughly 4.3% and 1.5% of their cost; on ScienceBoard, success rose from 41.4% to 58.6%. This is research code, not an app: runs need a clone of the repo, the OSWorld-V2 setup, AWS VMs and model credentials. Benchmarks are Simular's own.",
+   "url": "https://github.com/simular-ai/Agent-S/tree/main/agent_s4",
+   "type": "Agents",
+   "anchor": "rel-2026-10-20-simular-agent-s4-computer-use-agent-that-evolves-its"
   },
   {
    "date": "2026-10-20",
