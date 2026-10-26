@@ -1,5 +1,5 @@
 {
- "updated": "Oct 25, 2026",
+ "updated": "Oct 26, 2026",
  "tools": [
   {
    "cat": "Coding agents & AI IDEs",
@@ -644,6 +644,24 @@
  ],
  "releases": [
   {
+   "date": "2026-10-25",
+   "org": "Nanbeige Lab",
+   "title": "Nanbeige4.3-33B (open weights, Apache 2.0)",
+   "summary": "Nanbeige Lab (part of BOSS Zhipin's parent Kanzhun) released a 33B dense model aimed at agentic coding and terminal work, with a 512K-token (524,288) context and a chat template that can switch thinking on or off and keep earlier reasoning across turns. Lab-reported versus Qwen3.8-27B: Terminal-Bench 2.1 80.9 vs 73.0 and DeepSWE 65.5 vs 42.5, but SWE-Bench Pro 60.3 vs 61.7 and GDPval 84.8 vs 86.4, so it isn't ahead everywhere. BF16 weights plus a Base model on Hugging Face, running with Transformers, SGLang or vLLM; Nanbeige says it is the teacher for an upcoming Nanbeige4.3-3B. Scores are the lab's own and not independently checked.",
+   "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
+   "type": "Model",
+   "anchor": "rel-2026-10-25-nanbeige-lab-nanbeige4-3-33b"
+  },
+  {
+   "date": "2026-10-24",
+   "org": "Ollama",
+   "title": "Speech models in Ollama (local text-to-speech with Phonon)",
+   "summary": "Ollama can now turn text into speech on your own machine, starting with Gradium's small Phonon models: ollama run phonon \"Hello\" speaks out loud, a chat model's reply can be piped into it so it starts talking after the first sentence, output can be saved as a WAV file, and the OpenAI-compatible /v1/audio/speech endpoint streams audio so existing OpenAI SDK code only needs a new base URL. English phonon is Apache 2.0; the French, German, Spanish, Portuguese and multilingual 40M models are CC BY-NC 4.0 (non-commercial). macOS on Apple Silicon only for now (Ollama 0.40.11 or later), with Windows and Linux coming soon; Ollama reports it ran 35% faster than Gradium's own runtime on an M5 Max MacBook Pro.",
+   "url": "https://ollama.com/blog/speech-models",
+   "type": "Dev tools",
+   "anchor": "rel-2026-10-24-ollama-speech-models-in-ollama"
+  },
+  {
    "date": "2026-10-23",
    "org": "Anthropic",
    "title": "MCP Tasks and Elicitations in Claude Code (public beta)",
@@ -780,6 +798,24 @@
   },
   {
    "date": "2026-10-20",
+   "org": "iFLYTEK",
+   "title": "Spark-X2.6-4B (open on-device agent model, Apache 2.0)",
+   "summary": "iFLYTEK's SparkLLM team updated its 4B on-device model a little over a month after Spark-X2.5-4B: the architecture is unchanged and the gains come from post-training for coding, tool-using agents, long context and multilingual work, with three thinking levels (none, low, high) to trade quality for speed. iFLYTEK-reported (high thinking): BFCL-V4 71.8, MCP-Atlas 62.4, BrowseComp 53.1, SWE Pro 54.3, and it says the model matches or beats some ~9B models. Weights on Hugging Face and ModelScope (FP8, INT8 and GGUF builds too) and on Ollama (ollama run SparkLLM/Spark-X2.6-4B), with vLLM and SGLang guides. Scores are the company's own.",
+   "url": "https://huggingface.co/XHToken/Spark-X2.6-4B",
+   "type": "Model",
+   "anchor": "rel-2026-10-20-iflytek-spark-x2-6-4b"
+  },
+  {
+   "date": "2026-10-20",
+   "org": "ElevenLabs",
+   "title": "Eleven Realtime v1 Mini and v1 Max (speech-to-speech voice agents)",
+   "summary": "A new class of speech-to-speech models where each model is a complete voice agent, with no separate speech recognition, LLM and text-to-speech to wire together. Both handle 90+ languages and any of the 17,000+ voices in the ElevenLabs library. Mini is the low-cost pick for assistants, tutors and interactive characters; Max is for support, lead qualification and multi-step workflows with heavy tool calling. In Artificial Analysis evaluations cited by ElevenLabs: Big Bench Audio 98.8% (Max) / 75.9% (Mini), 0.57 s / 0.62 s average time to start speaking, Full-Duplex-Bench 94.1% / 95.8%, tool-use completion 87.1% / 60.3%. Available in ElevenAgents and through a Realtime API that follows OpenAI's Realtime spec (WebSocket only), so existing code needs only a new endpoint and model name.",
+   "url": "https://elevenlabs.io/blog/realtime",
+   "type": "Agents",
+   "anchor": "rel-2026-10-20-elevenlabs-eleven-realtime-v1-mini-and-v1-max"
+  },
+  {
+   "date": "2026-10-20",
    "org": "Simular",
    "title": "Agent S4: computer-use agent that evolves its own tools (open source, Apache 2.0)",
    "summary": "Simular's research release in its open-source Agent-S repo, with the paper Evolving Agent Interfaces. Instead of clicking through apps the way a person would, a Builder agent studies a computer-use agent's attempts and writes and revises a small Python tool library (a shadow interface) for it, and population-based evolution keeps the versions that score best on held-out tasks. Simular reports 21.3% on OSWorld V2, which scores strict pass/fail, with Qwen3.8-27B: 3.8x the same model with fixed interfaces and above its reported GPT-5.5 (13.0%) and Claude Opus 4.8 (20.6%) runs, at roughly 4.3% and 1.5% of their cost; on ScienceBoard, success rose from 41.4% to 58.6%. This is research code, not an app: runs need a clone of the repo, the OSWorld-V2 setup, AWS VMs and model credentials. Benchmarks are Simular's own.",
@@ -876,6 +912,15 @@
    "url": "https://github.com/Asymptote-Labs/agent-beacon",
    "type": "Dev tools",
    "anchor": "rel-2026-10-20-asymptote-labs-beacon-shared-memory-for-coding-agents"
+  },
+  {
+   "date": "2026-10-19",
+   "org": "fal + Black Forest Labs",
+   "title": "FLUX 3 Max video model (fast text and image to video)",
+   "summary": "fal Research post-trained Black Forest Labs' FLUX 3 video model for speed and quality: text-to-video and image-to-video at 720p, with a 10-second clip in about 12.45 seconds versus 126.44 for FLUX 3 and 277.80 for Seedance 2.5. It scores 1,139 Elo on Artificial Analysis's preliminary image-to-video arena, tied for #1 (MiniMax H3 is listed first at 1,141 within the margin). Only on fal's API, billed per second of output: $0.0425/s at 720p while 75% off until Nov 7, then $0.17/s list. Speed and Elo figures are as reported by fal.",
+   "url": "https://fal.ai/flux-3-max",
+   "type": "Creative",
+   "anchor": "rel-2026-10-19-fal-black-forest-labs-flux-3-max"
   },
   {
    "date": "2026-10-19",
