@@ -1,8 +1,8 @@
 # Loadout Rank
 
-> Ranked AI tools by use case (8 categories, 10 tools each) plus a dated list of recent AI releases. Scores are provisional editorial seed scores as of 2026-10-26.
+> Ranked AI tools by use case (8 categories, 10 tools each) plus a dated list of recent AI releases. Scores are provisional editorial seed scores as of 2026-10-27.
 
-Key facts: updated 2026-10-26; weights planned Quality 40 / Adoption 20 / Value 15 / Ease 15 / Trust 10; no affiliate or sponsored links currently.
+Key facts: updated 2026-10-27; weights planned Quality 40 / Adoption 20 / Value 15 / Ease 15 / Trust 10; no affiliate or sponsored links currently.
 Publisher: Loadout Rank, independent (not affiliated with any listed tool); official X account: https://x.com/LoadoutRank
 
 ## Main
@@ -11,7 +11,7 @@ Publisher: Loadout Rank, independent (not affiliated with any listed tool); offi
 - [Methodology & disclosure](https://dlee8484.github.io/loadout-rank/about.html)
 - [Head-to-head comparisons index](https://dlee8484.github.io/loadout-rank/comparisons.html)
 - [Full text for LLMs](https://dlee8484.github.io/loadout-rank/llms-full.txt): every ranking, the release list, and each comparison's verdict, pick-if guidance, price/feature table and sources in one Markdown file
-- [Structured data (JSON)](https://dlee8484.github.io/loadout-rank/data.json): every tool (category, rank, score, url) and every release (date, org, type, primary-source url, entry anchor); same facts as the pages, updated 2026-10-26
+- [Structured data (JSON)](https://dlee8484.github.io/loadout-rank/data.json): every tool (category, rank, score, url) and every release (date, org, type, primary-source url, entry anchor and absolute permalink to our entry); same facts as the pages, updated 2026-10-27
 
 ## Comparisons
 - [Claude Code vs Cursor](https://dlee8484.github.io/loadout-rank/claude-code-vs-cursor.html)
@@ -25,12 +25,12 @@ Publisher: Loadout Rank, independent (not affiliated with any listed tool); offi
 - [LangGraph vs Mastra](https://dlee8484.github.io/loadout-rank/langgraph-vs-mastra.html)
 
 ## Latest releases
+- [Opera: WebAI: local AI models built into the Opera browser (early preview)](https://press.opera.com/2026/10/27/opera-doubles-down-on-local-ai-shipping-models-directly-in-its-browsers/): released 2026-10-27 (primary source; our entry: https://dlee8484.github.io/loadout-rank/#rel-2026-10-27-opera-webai-local-ai-models-built-into-the)
+- [OpenAI: GPT-6.1 Terra (fast, low-cost computer-use model)](https://openai.com/index/introducing-gpt-6-1-terra): released 2026-10-26 (primary source; our entry: https://dlee8484.github.io/loadout-rank/#rel-2026-10-26-openai-gpt-6-1-terra)
+- [Mirendil: Fern 0.1: 10M-token-context model (early access)](https://mirendil.com/news/introducing-fern/): released 2026-10-26 (primary source; our entry: https://dlee8484.github.io/loadout-rank/#rel-2026-10-26-mirendil-fern-0-1-10m-token-context-model)
+- [Runway: App Studio: build your own creative AI apps by describing them](https://runway.com/news/company-news/introducing-runway-app-studio): released 2026-10-26 (primary source; our entry: https://dlee8484.github.io/loadout-rank/#rel-2026-10-26-runway-app-studio-build-your-own-creative-ai)
 - [Nanbeige Lab: Nanbeige4.3-33B (open weights, Apache 2.0)](https://huggingface.co/Nanbeige/Nanbeige4.3-33B): released 2026-10-25 (primary source; our entry: https://dlee8484.github.io/loadout-rank/#rel-2026-10-25-nanbeige-lab-nanbeige4-3-33b)
 - [Ollama: Speech models in Ollama (local text-to-speech with Phonon)](https://ollama.com/blog/speech-models): released 2026-10-24 (primary source; our entry: https://dlee8484.github.io/loadout-rank/#rel-2026-10-24-ollama-speech-models-in-ollama)
-- [Anthropic: MCP Tasks and Elicitations in Claude Code (public beta)](https://code.claude.com/docs/en/mcp): released 2026-10-23 (primary source; our entry: https://dlee8484.github.io/loadout-rank/#rel-2026-10-23-anthropic-mcp-tasks-and-elicitations-in-claude-code)
-- [Moonshot AI: Kimi K3.1 Pro + K3.1 Pro Highspeed (open weights due by Nov 4)](https://www.kimi.ai/blog/kimi-k3-1-pro): released 2026-10-23 (primary source; our entry: https://dlee8484.github.io/loadout-rank/#rel-2026-10-23-moonshot-ai-kimi-k3-1-pro-k3-1-pro)
-- [NVIDIA: Nemotron 3.5 Bolt E4B 4GB (open small model for local agents)](https://research.nvidia.com/labs/nemotron/NVIDIA-Nemotron-3.5-Bolt-E4B-4GB/): released 2026-10-23 (primary source; our entry: https://dlee8484.github.io/loadout-rank/#rel-2026-10-23-nvidia-nemotron-3-5-bolt-e4b-4gb)
-- [MiniMax: MiniMax M3.1 Flash open weights (MiniMax Community License)](https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash): released 2026-10-23 (primary source; our entry: https://dlee8484.github.io/loadout-rank/#rel-2026-10-23-minimax-minimax-m3-1-flash-open-weights)
 - [All releases with summaries](https://dlee8484.github.io/loadout-rank/rankings.md) and [RSS](https://dlee8484.github.io/loadout-rank/feed.xml)
 
 
