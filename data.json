@@ -1,5 +1,5 @@
 {
- "updated": "Oct 27, 2026",
+ "updated": "Oct 28, 2026",
  "tools": [
   {
    "cat": "Coding agents & AI IDEs",
@@ -645,6 +645,66 @@
  "releases": [
   {
    "date": "2026-10-27",
+   "org": "Google DeepMind",
+   "title": "Genie 4: real-time interactive world model with native audio (research preview)",
+   "summary": "DeepMind's new world model generates explorable worlds you move through in real time with standard keyboard controls, and now generates the sound with them: music, ambient noise and dialogue from the people in the scene. You can steer a running simulation in plain language, like changing the weather, moving the camera or adding a person or object, and Gemini adapts the prompt to the scene and keeps the world coherent between your inputs. DeepMind says it builds on Gemini Omni for real-world appearance and behavior, with better photorealism, physics (aerodynamics, collisions) and much more natural human characters than Genie 3. Rolling out first as a research preview for trusted testers; Google AI Ultra subscribers in Project Genie and early access partners of the Gemini API and Google AI Studio come next, with a waitlist open now. A big one for anyone prototyping game worlds.",
+   "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+   "type": "Creative",
+   "anchor": "rel-2026-10-27-google-deepmind-genie-4-real-time-interactive-world-model",
+   "permalink": "https://dlee8484.github.io/loadout-rank/#rel-2026-10-27-google-deepmind-genie-4-real-time-interactive-world-model"
+  },
+  {
+   "date": "2026-10-27",
+   "org": "Liquid AI",
+   "title": "LFM3: six open-weight ~2B models for text, vision, audio and omni",
+   "summary": "Liquid AI's new generation of small on-device models: text, vision (now with video input), audio (speech in and out, 18 languages), an omni model that sees, listens and talks, and two decision models (d1-2B, d1-Omni-2B), all branched from one LFM3-1.7B-Base backbone pretrained on 22T tokens with a new tri-hybrid architecture. Liquid AI-reported: LFM3-1.7B beats its own LFM2.5-2.6B with 35% fewer parameters, the text model fits in about 1 GB at 4-bit with a 256K-token context, and it's post-trained to run in agent harnesses such as Hermes Agent, Pi and OpenClaw. Every model can be fine-tuned on a single GPU. Weights on Hugging Face under Liquid's LFM Open License v1.0 (not Apache or MIT), plus Liquid's API and Playground; runs in llama.cpp, MLX, vLLM and SGLang, with day-0 partners including OpenRouter and Vercel, and it's on Ollama. Benchmarks are Liquid AI's own.",
+   "url": "https://www.liquid.ai/blog/lfm3",
+   "type": "Model",
+   "anchor": "rel-2026-10-27-liquid-ai-lfm3-six-open-weight-2b-models-for",
+   "permalink": "https://dlee8484.github.io/loadout-rank/#rel-2026-10-27-liquid-ai-lfm3-six-open-weight-2b-models-for"
+  },
+  {
+   "date": "2026-10-27",
+   "org": "inclusionAI (Ant Group)",
+   "title": "Ling-3.1-flash-1019 (open weights, MIT)",
+   "summary": "An upgraded post-training of Ant Group's Ling-3.1-flash: a 560B-parameter mixture-of-experts model with 25B active per token and a 1M-token context window, aimed at reasoning and multi-step agent work. Lab-reported gains over Ling-3.1-flash: AA-Briefcase about 1400 to 1524 Elo, AutomationBench-AA 62% to 68%, CritPt 18% to 26% and SciCode 54% to 57%, for a score of 44 on the Artificial Analysis Intelligence Index v4.3.2 (up from 41). Ant also released Ling-3.1-flash-base as an open foundation for further training. Weights on Hugging Face under MIT; at this size it's a server/cloud model, not a laptop one. Benchmarks are inclusionAI's own.",
+   "url": "https://huggingface.co/inclusionAI/Ling-3.1-flash-1019",
+   "type": "Model",
+   "anchor": "rel-2026-10-27-inclusionai-ant-group-ling-3-1-flash-1019",
+   "permalink": "https://dlee8484.github.io/loadout-rank/#rel-2026-10-27-inclusionai-ant-group-ling-3-1-flash-1019"
+  },
+  {
+   "date": "2026-10-27",
+   "org": "DiffuSpace",
+   "title": "Clover-35B-A3B-Preview: open diffusion language model (Apache 2.0)",
+   "summary": "From the team behind HKU's Dream 7B: a 35B mixture-of-experts language model (about 3B active) that writes by filling in blocks of tokens in parallel instead of one token at a time, built from Qwen3.6-35B-A3B, with a thinking mode. DiffuSpace-reported: SWE-bench Verified 73.6, Terminal-Bench 2.1 51.7 and \u03c4\u00b3 65.3, ahead of Qwen3.6-35B-A3B and diffusion rivals in its tables, and about 680 tokens/s on one NVIDIA GB300 (BF16, batch size 1, internal agent workloads) or 515 tokens/s on an H200. Weights under Apache 2.0 on Hugging Face, ModelScope and GitHub; the lab lists SGLang and llama.cpp support, but the full BF16 weights need a large data-center GPU, so it's not a typical local pick yet. A decision model built on it is coming later. Benchmarks are DiffuSpace's own.",
+   "url": "https://diffuspace.ai/blog/clover-35b/",
+   "type": "Model",
+   "anchor": "rel-2026-10-27-diffuspace-clover-35b-a3b-preview-open-diffusion-language-model",
+   "permalink": "https://dlee8484.github.io/loadout-rank/#rel-2026-10-27-diffuspace-clover-35b-a3b-preview-open-diffusion-language-model"
+  },
+  {
+   "date": "2026-10-27",
+   "org": "Replit",
+   "title": "Cloud Agents for existing company codebases",
+   "summary": "Anyone on a team (designers, PMs, support leads) can describe a change to the company's real app in plain language; Replit's Cloud Agents find the code, make the change with a live preview, click through it in an isolated cloud sandbox, fix what fails, and open a GitHub pull request or GitLab merge request with screenshots and video of it working. Engineers still review and approve what ships, and when review feedback is worth keeping the agent proposes updates to the team's agent skills (that part is early access). An admin sets up one shared environment from your repos that stays synced to main. You can also start requests by mentioning @Replit in Slack, with Microsoft Teams support coming. Available to all Replit Pro and Enterprise customers.",
+   "url": "https://replit.com/blog/anyone-can-bring-ideas-to-company-codebase",
+   "type": "Agents",
+   "anchor": "rel-2026-10-27-replit-cloud-agents-for-existing-company-codebases",
+   "permalink": "https://dlee8484.github.io/loadout-rank/#rel-2026-10-27-replit-cloud-agents-for-existing-company-codebases"
+  },
+  {
+   "date": "2026-10-27",
+   "org": "Baidu",
+   "title": "Unlimited OCR 2: open document-parsing model for very long documents (MIT)",
+   "summary": "Baidu's second Unlimited OCR model reads whole multi-page documents in one request, using cross-page context, and keeps decoding speed and memory nearly constant no matter how long the document gets, thanks to a new attention design (SR-SWA) that compresses the text-to-image interactions into a fixed set of working references. Baidu reports state-of-the-art results on long-document parsing benchmarks, including MarathonDocBench, a new hundred-page benchmark it released alongside. Weights on Hugging Face and ModelScope under MIT, with Transformers and SGLang support, a free Hugging Face demo, and availability on Baidu Cloud. Benchmarks are Baidu's own.",
+   "url": "https://huggingface.co/baidu/Unlimited-OCR-2",
+   "type": "Model",
+   "anchor": "rel-2026-10-27-baidu-unlimited-ocr-2-open-document-parsing-model-for",
+   "permalink": "https://dlee8484.github.io/loadout-rank/#rel-2026-10-27-baidu-unlimited-ocr-2-open-document-parsing-model-for"
+  },
+  {
+   "date": "2026-10-27",
    "org": "Opera",
    "title": "WebAI: local AI models built into the Opera browser (early preview)",
    "summary": "Opera One now ships local AI that websites and browser extensions can use through WebAI, a proposed web standard Opera says is backed by companies such as Google and Microsoft: text generation, content classification and finding how pieces of information relate, all running on your own computer with no AI subscription, per-request fee or data sent to an AI service. At launch it uses Google's Gemma and, on Macs, Apple's on-device foundation model; Opera says the design is model-agnostic and built around open models. Opt-in: nothing downloads until you turn it on, and each site needs permission. Early preview on 64-bit Windows PCs (Intel or AMD) and Apple silicon Macs; speed depends on your hardware. Opera GX (its gaming browser) and Opera Neon get it later. Opera also launched HTML-in-Canvas, which puts live, clickable web pages inside 2D and 3D scenes, with game-style demos aimed at Opera GX.",
@@ -652,6 +712,16 @@
    "type": "Dev tools",
    "anchor": "rel-2026-10-27-opera-webai-local-ai-models-built-into-the",
    "permalink": "https://dlee8484.github.io/loadout-rank/#rel-2026-10-27-opera-webai-local-ai-models-built-into-the"
+  },
+  {
+   "date": "2026-10-26",
+   "org": "Entire",
+   "title": "Entire: a Git forge built for agents and humans working together",
+   "summary": "Former GitHub CEO Thomas Dohmke's company launched a full Git host where agents are first-class collaborators. Trails replace pull requests: every push is scored by agent-run evaluations so you see what changed and whether it works. Entire says pushes are up to 89x faster than GitHub on its new Git-compatible backend (EntireDB), and its Continuous Memory pairs a codebase graph (up to 71% token savings, per Entire) with an agent brain built from previous sessions and prompts. Teams can move off GitHub Actions to Buildkite or Depot CI, and all Trails data is also available through the open-source Entire CLI so coding agents can fix findings in a loop. Speed and savings figures are Entire's own.",
+   "url": "https://entire.com/news/entire-launches-an-independent-git-forge-for-agent-human-collaboration",
+   "type": "Dev tools",
+   "anchor": "rel-2026-10-26-entire-entire-a-git-forge-built-for-agents",
+   "permalink": "https://dlee8484.github.io/loadout-rank/#rel-2026-10-26-entire-entire-a-git-forge-built-for-agents"
   },
   {
    "date": "2026-10-26",
