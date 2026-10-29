@@ -1,5 +1,5 @@
 {
- "updated": "Oct 28, 2026",
+ "updated": "Oct 29, 2026",
  "tools": [
   {
    "cat": "Coding agents & AI IDEs",
@@ -643,6 +643,86 @@
   }
  ],
  "releases": [
+  {
+   "date": "2026-10-28",
+   "org": "Google DeepMind",
+   "title": "Gemini 4 Carbon: Google's new frontier model, led by cybersecurity and long tasks (limited access)",
+   "summary": "Google's next frontier Gemini model is built for long-horizon work and cybersecurity, and Google says it can work through complex coding tasks for days without getting stuck or taking shortcuts. Google-reported: #1 on the Artificial Analysis Intelligence Index v5.0 with a score of 59, 88.2% on SEC-bench Pro, 54.8% on ExploitGym, 71.0% on CWE-bench, and #4 on WebDev Arena (1768). Access is limited for now: a subset of cyber defenders gets it first this week, then trusted partners through Google's Fairwind Program, with developer, business and consumer access coming soon. Introductory API pricing is $2 per million input tokens and $10 per million output (cached input 95% off), rising later to $4 and $20. Benchmarks are Google's own.",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+   "type": "Model",
+   "anchor": "rel-2026-10-28-google-deepmind-gemini-4-carbon-google-s-new-frontier",
+   "permalink": "https://dlee8484.github.io/loadout-rank/#rel-2026-10-28-google-deepmind-gemini-4-carbon-google-s-new-frontier"
+  },
+  {
+   "date": "2026-10-28",
+   "org": "GitHub",
+   "title": "Copilot Fusion: Copilot now orchestrates several models per task (GA)",
+   "summary": "GitHub Copilot can now route and combine models from different labs on a single task instead of using one model at a time. Pick an effort level (Standard, High or Max) and Fusion picks the models and a workflow: Single, Cascade (escalate when needed) or Critique (one model checks another). GitHub-reported: Fusion Max scored 60 on the Artificial Analysis Coding Agent Index, within two points of Claude Code with Opus 5.5 Max, at about half the API cost per task, about half the tokens and roughly 40% less time. Usage is billed at each underlying model's standard rate, with 30% off on paid plans through Nov. 30. Generally available on all Copilot plans in VS Code, the Copilot app, Copilot CLI and JetBrains IDEs; admins choose which models it may use. Figures are GitHub's own.",
+   "url": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion/",
+   "type": "Dev tools",
+   "anchor": "rel-2026-10-28-github-copilot-fusion-copilot-now-orchestrates-several-models",
+   "permalink": "https://dlee8484.github.io/loadout-rank/#rel-2026-10-28-github-copilot-fusion-copilot-now-orchestrates-several-models"
+  },
+  {
+   "date": "2026-10-28",
+   "org": "GitHub",
+   "title": "Replica: open-source AI prototyping with your own design system (MIT)",
+   "summary": "GitHub's design team open-sourced the tool it uses to build interactive prototypes from plain-language prompts, using your team's real design system and components instead of generic UI. You drive it from the GitHub Copilot app, and an optional self-hosted Replica Hub lets teammates view prototypes and leave comments. Free and open source under the MIT license on GitHub. Handy for quickly mocking up a game launcher, mod manager or dashboard that actually looks like your product.",
+   "url": "https://github.blog/changelog/2026-10-28-introducing-replica-an-open-source-ai-prototyping-tool/",
+   "type": "Dev tools",
+   "anchor": "rel-2026-10-28-github-replica-open-source-ai-prototyping-with-your-own",
+   "permalink": "https://dlee8484.github.io/loadout-rank/#rel-2026-10-28-github-replica-open-source-ai-prototyping-with-your-own"
+  },
+  {
+   "date": "2026-10-28",
+   "org": "Particle",
+   "title": "Particle-1: a token-efficient coding model built on DeepSeek V4.1 Flash",
+   "summary": "The first model from Particle, a new company from Mixpanel founder Suhail Doshi, is DeepSeek V4.1 Flash post-trained with reinforcement learning to finish software and data-engineering tasks with far fewer tokens. Particle-reported: about 45% fewer tokens on average, 28.4% to 52.2% fewer output tokens and 34.4% to 51.6% lower cost per task than the base model on DeepSWE 1.1, Terminal-Bench 2.1, ReactBench and ADE Bench, with pass rates within the base model's confidence intervals and general benchmarks like GPQA Diamond close to the base. Fewer tokens also means tasks finish sooner. Available now through Particle's own inference API, which Particle says is also partnered with OpenRouter. Benchmarks are Particle's own.",
+   "url": "https://particle.ai/blog/introducing-particle-1",
+   "type": "Model",
+   "anchor": "rel-2026-10-28-particle-particle-1-a-token-efficient-coding-model-built-on",
+   "permalink": "https://dlee8484.github.io/loadout-rank/#rel-2026-10-28-particle-particle-1-a-token-efficient-coding-model-built-on"
+  },
+  {
+   "date": "2026-10-28",
+   "org": "SenseTime",
+   "title": "SenseNova 6.8 Code2Video: an open model that makes videos by writing code (Apache 2.0)",
+   "summary": "SenseTime released a lightweight open model that turns a text idea into executable code, which then renders a short video, so every shot stays editable as code you can tweak with follow-up requests. It can also recreate and remix reference videos in code. SenseTime open-sourced the weights plus a Skill for coding agents, along with the prompts and full generation runs behind every showcase video, each made from a single prompt in one run. The 27B model is fine-tuned from Qwen3.8-27B with a 512K-token context and is meant to be driven from an agent harness (SenseTime recommends Claude Code). Weights on Hugging Face under Apache 2.0; at 27B you'll want a strong GPU or a hosted endpoint.",
+   "url": "https://huggingface.co/sensenova/SenseNova-6.8-Code2Video",
+   "type": "Creative",
+   "anchor": "rel-2026-10-28-sensetime-sensenova-6-8-code2video-an-open-model-that",
+   "permalink": "https://dlee8484.github.io/loadout-rank/#rel-2026-10-28-sensetime-sensenova-6-8-code2video-an-open-model-that"
+  },
+  {
+   "date": "2026-10-28",
+   "org": "Simulon",
+   "title": "Simulon Reality-Aware Rendering: AI characters that react to your real-world scene (iPhone)",
+   "summary": "Simulon's phone app now lets you place AI-generated neural assets (creatures, characters, objects) into the real world, act out a scene, and get back a rendered take where those assets respond to what you do, what you say and the room around you. When you stop recording, Simulon regenerates the final video from your recording as a new performance of the scene rather than an overlay on the footage. Available now on iPhone, with Android coming soon; the app is free to try with 100 one-time starter credits, and Simulon Plus is $14.99 a month and Pro $39.99 a month. A fun one for creators making short films, skits or game-style clips.",
+   "url": "https://x.com/Simulon/status/2115519228564693170",
+   "type": "Creative",
+   "anchor": "rel-2026-10-28-simulon-simulon-reality-aware-rendering-ai-characters-that-react",
+   "permalink": "https://dlee8484.github.io/loadout-rank/#rel-2026-10-28-simulon-simulon-reality-aware-rendering-ai-characters-that-react"
+  },
+  {
+   "date": "2026-10-28",
+   "org": "Articul8",
+   "title": "Bivia: a multimodal model that returns decisions, not text (API)",
+   "summary": "Articul8 (an Intel spinout) launched a compact decision model for agents: give it an input such as text, images, documents, code, signals, audio or video plus a question, and it returns a typed decision (choice, yes/no, score, extraction and more) with a calibrated confidence instead of generating a chat reply. It can abstain and flag calls it isn't sure about, has Fast and Deep modes, and works in 50+ languages, per Articul8. Because it generates no output tokens, Articul8 says you pay only for input tokens, which suits high-volume routing and triage steps inside an agent. Available via API now; the first 10,000 users get up to 1 billion free tokens with no subscription.",
+   "url": "https://articul8.ai/bivia",
+   "type": "Agents",
+   "anchor": "rel-2026-10-28-articul8-bivia-a-multimodal-model-that-returns-decisions",
+   "permalink": "https://dlee8484.github.io/loadout-rank/#rel-2026-10-28-articul8-bivia-a-multimodal-model-that-returns-decisions"
+  },
+  {
+   "date": "2026-10-27",
+   "org": "OpenBMB",
+   "title": "MiniCPM-OCR 1.0: a 1.3B open OCR model that runs on phones and laptops (Apache 2.0)",
+   "summary": "OpenBMB released a small open model for reading real-world documents (text, tables, formulas, charts, seals and key fields) from scans, photos, curved or skewed pages and PDFs, in Chinese and English. OpenBMB-reported: 93.68 on Real5-OmniDocBench with leading results on OmniDocBench v1.6, Wild-OmniDocBench and olmOCR-Bench, and about 1.49x the throughput of PaddleOCR-VL-1.6. A companion 2B model, MiniCPM-OCR Jev, scores OCR results so you can flag likely errors for human review, and it can check other OCR models' output too. Day-one support for vLLM, SGLang, llama.cpp and Ollama, with quantized builds and an Apple silicon port; weights on Hugging Face under Apache 2.0, plus a free API. Benchmarks are OpenBMB's own.",
+   "url": "https://huggingface.co/openbmb/MiniCPM-OCR-1.0",
+   "type": "Model",
+   "anchor": "rel-2026-10-27-openbmb-minicpm-ocr-1-0-a-1-3b-open-ocr-model",
+   "permalink": "https://dlee8484.github.io/loadout-rank/#rel-2026-10-27-openbmb-minicpm-ocr-1-0-a-1-3b-open-ocr-model"
+  },
   {
    "date": "2026-10-27",
    "org": "Google DeepMind",
