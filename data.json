@@ -1,5 +1,5 @@
 {
- "updated": "Oct 29, 2026",
+ "updated": "Oct 30, 2026",
  "tools": [
   {
    "cat": "Coding agents & AI IDEs",
@@ -643,6 +643,86 @@
   }
  ],
  "releases": [
+  {
+   "date": "2026-10-30",
+   "org": "Ramen",
+   "title": "Aura Autopilot: open-source AI playtester for Unreal, Unity and Godot (Apache 2.0)",
+   "summary": "Ramen, maker of the Aura game-dev agent, open-sourced an agent that plays your game in real time, learns it as it goes, and can be pointed at the exact system you want tested, from shooters and souls-likes to match-3, survival crafting, JRPGs and RTS games. It works with Unreal Engine, Unity and Godot on Windows and macOS, and runs on your existing Claude Code or Codex subscription or your own API key. Ramen-reported: in its whitepaper's seven-task test in one Unreal Engine 5.8 game, Autopilot passed all seven tasks and was 1.7x faster than Claude Code, which passed five. The code is on GitHub under Apache 2.0, and Autopilot is also included in an Aura subscription, which has a free trial. Pair it with Aura to build a feature and then have Autopilot playtest it.",
+   "url": "https://www.tryaura.dev/autopilot/",
+   "type": "Dev tools",
+   "anchor": "rel-2026-10-30-ramen-aura-autopilot-open-source-ai-playtester-for-unreal",
+   "permalink": "https://dlee8484.github.io/loadout-rank/#rel-2026-10-30-ramen-aura-autopilot-open-source-ai-playtester-for-unreal"
+  },
+  {
+   "date": "2026-10-30",
+   "org": "The Biological Computing Co.",
+   "title": "TBC mischief 1: a cheap, fast image-to-video model (fal, OpenRouter)",
+   "summary": "The Biological Computing Co. launched its first public model, an image-to-video model built on the open-weight Wan 2.2 that it says matches the base model's quality while generating video about 5x faster. TBC says the speedup comes from computing principles it measured in lab-grown living neurons and turned into software that runs on ordinary GPUs. At half a cent per second of video (2.5 cents for a five-second clip), it is the lowest-priced image-to-video model on fal and OpenRouter, per TBC. Available now on fal and OpenRouter. Speed and quality claims are TBC's own.",
+   "url": "https://www.prnewswire.com/news-releases/the-biological-computing-co-launches-worlds-first-publicly-available-neuron-derived-ai-video-model-302924399.html",
+   "type": "Creative",
+   "anchor": "rel-2026-10-30-the-biological-computing-co-tbc-mischief-1-a",
+   "permalink": "https://dlee8484.github.io/loadout-rank/#rel-2026-10-30-the-biological-computing-co-tbc-mischief-1-a"
+  },
+  {
+   "date": "2026-10-29",
+   "org": "Mistral",
+   "title": "Mistral Large 4 (Le Chonk) open weights: 1T-parameter model for coding and cyber defense",
+   "summary": "Mistral released the weights of an improved Mistral Large 4, the 1-trillion-parameter multimodal flagship it put in public preview earlier in October, after about three more weeks of reinforcement learning aimed at coding and defensive cybersecurity. Mistral-reported: 19.7% on Cognition's private FrontierCode 2.0 (the top open-weight score), 48% on the Artificial Analysis Coding Agent Index (effectively tied with GLM-5.3 while using 47% fewer tokens per task), 41% on Terminal-Bench 4.0 and 51% on the Artificial Analysis Cyber Index. It has Low, Medium and High reasoning modes. Weights are on Hugging Face under the Mistral Ecosystem Open-Weight license (a modified MIT license; companies selling it as a hosted model service need a separate commercial license). API pricing is $0.70 per million input tokens and $2.10 per million output, and it is also on OpenRouter and in Vibe Code. Benchmarks are Mistral's own.",
+   "url": "https://mistral.ai/news/mistral-large-4-oss/",
+   "type": "Model",
+   "anchor": "rel-2026-10-29-mistral-mistral-large-4",
+   "permalink": "https://dlee8484.github.io/loadout-rank/#rel-2026-10-29-mistral-mistral-large-4"
+  },
+  {
+   "date": "2026-10-29",
+   "org": "Pika",
+   "title": "Pika H3 Flex: fast open-weight video model with audio stems and 4K finishing",
+   "summary": "Pika post-trained MiniMax H3 to generate video in six steps instead of 50, and says it can make a 15-second 768p clip with synchronized audio in as little as seven seconds of model compute (not end-to-end API time). It takes up to 12 reference images, videos or audio clips in one generation, and through the Pika API it can export five separate audio stems (dialogue, score, SFX, foley, ambience) and upscale a draft to 1080p, 2K or 4K. Pika says it launched as the #1 open-weights model and #7 overall on DesignArena's text-to-video board. The generator adapters and inference code are on Hugging Face and GitHub under the MiniMax H3 Community License (text-to-video, first/last-frame and reference-to-video at 480p and 768p); the upscaler and stems stay Pika-hosted. Available now in the Pika API, and coming to the Pika creation app on Nov 2.",
+   "url": "https://pika.art/blog/pika-h3-flex",
+   "type": "Creative",
+   "anchor": "rel-2026-10-29-pika-pika-h3-flex-fast-open-weight-video-model",
+   "permalink": "https://dlee8484.github.io/loadout-rank/#rel-2026-10-29-pika-pika-h3-flex-fast-open-weight-video-model"
+  },
+  {
+   "date": "2026-10-29",
+   "org": "Canva",
+   "title": "Canva Brush: a vision-language model that edits your designs",
+   "summary": "A week after its Craft image model, Canva Research launched Brush, a model that looks at a design's layout, layers and style and makes the edits you ask for, from one line of copy to every slide in a deck, while leaving the rest alone. It works in an agentic loop that writes and runs code to adjust elements, and everything it makes stays fully editable. Canva-reported: up to 69% faster and 46% cheaper per edit than its previous design agent. Brush starts from an open-weights model post-trained on design tasks. Available now in Canva AI for Canva Pro subscribers (pick Brush from the dropdown), with wider availability coming soon.",
+   "url": "https://www.canva.com/newsroom/news/canva-brush/",
+   "type": "Creative",
+   "anchor": "rel-2026-10-29-canva-canva-brush-a-vision-language-model-that-edits",
+   "permalink": "https://dlee8484.github.io/loadout-rank/#rel-2026-10-29-canva-canva-brush-a-vision-language-model-that-edits"
+  },
+  {
+   "date": "2026-10-29",
+   "org": "Factory",
+   "title": "Droid 1.0: Factory's coding agent now writes programs to chain tool calls",
+   "summary": "Factory's model-agnostic coding agent hit 1.0 with programmatic tool calling on by default: instead of calling tools one at a time, the model writes a small JavaScript program, run in a sandbox with no file, network or system access of its own, that can make hundreds of tool calls in one model request. Raw files, logs and search results stay inside the program, so the model's context stays cleaner, and independent calls run in parallel. Factory-reported: on Terminal-Bench 4 with GPT-6.1 Sol, Droid passed 57.6% of tasks at $0.79 per passed task, ahead of Codex (54.0%) and OpenCode (51.0%) on the same model. Script mode is on by default for recent GPT and Claude models. Available as a desktop app for macOS and Windows, a terminal CLI and a TypeScript SDK. Benchmarks are Factory's own.",
+   "url": "https://factory.com/news/frontier-harness",
+   "type": "Dev tools",
+   "anchor": "rel-2026-10-29-factory-droid-1-0-factory-s-coding-agent-now-writes",
+   "permalink": "https://dlee8484.github.io/loadout-rank/#rel-2026-10-29-factory-droid-1-0-factory-s-coding-agent-now-writes"
+  },
+  {
+   "date": "2026-10-29",
+   "org": "Google",
+   "title": "Antigravity Plugin Marketplace: one-click plugins for Google's agent IDE",
+   "summary": "Google's agent-first IDE now has a catalog of installable plugins that bundle skills, MCP servers, rules, lifecycle hooks and custom subagents into one versioned package, replacing hand-configured MCP endpoints and per-repo setup files. Launch partners include Atlassian, Canva, CrowdStrike, Databricks, Datadog, Dropbox, Figma, monday.com, Stripe, Unity and Google's own Workspace, Firebase and Gemini API plugins. Plugins installed in the Antigravity App sync to the Antigravity CLI, and you can build, validate and share your own with agy plugin commands. Rolling out now in the Antigravity App and CLI.",
+   "url": "https://antigravity.google/blog/plugin-marketplace-in-antigravity/",
+   "type": "Dev tools",
+   "anchor": "rel-2026-10-29-google-antigravity-plugin-marketplace-one-click-plugins-for-google-s",
+   "permalink": "https://dlee8484.github.io/loadout-rank/#rel-2026-10-29-google-antigravity-plugin-marketplace-one-click-plugins-for-google-s"
+  },
+  {
+   "date": "2026-10-28",
+   "org": "NVIDIA",
+   "title": "Nemotron 3.5 Transcribe: open speech model for transcripts, speakers and translation",
+   "summary": "NVIDIA released an open-weight speech model that turns recorded audio into transcripts you can steer with plain-language instructions, such as verbatim or cleaned-up text or a list of names and terms to expect. It transcribes 40 languages, translates 31 of them to or from English, attributes speakers in 13, labels up to eight speakers, handles recordings up to an hour long and can answer questions about the audio. NVIDIA-reported: first among open-weight models on the Hugging Face Open ASR English track (5.33% average WER), 4.62% mean WER across seven languages multilingual, and tied for first among open-weight models on Artificial Analysis's AA-WER at 2.8%. It is a mixture-of-experts model with about 4B of its roughly 30B parameters active per token, released under the OpenMDW-1.1 license with quantized versions that run locally on an RTX Spark, DGX Spark or Jetson AGX Thor, per NVIDIA. NVIDIA also published Granary v2, a 463,062-hour multilingual speech dataset, plus fine-tuning recipes. Benchmarks are NVIDIA's own.",
+   "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+   "type": "Model",
+   "anchor": "rel-2026-10-28-nvidia-nemotron-3-5-transcribe-open-speech-model-for",
+   "permalink": "https://dlee8484.github.io/loadout-rank/#rel-2026-10-28-nvidia-nemotron-3-5-transcribe-open-speech-model-for"
+  },
   {
    "date": "2026-10-28",
    "org": "Google DeepMind",
