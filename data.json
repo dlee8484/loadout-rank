@@ -1,5 +1,5 @@
 {
- "updated": "Oct 30, 2026",
+ "updated": "Oct 31, 2026",
  "tools": [
   {
    "cat": "Coding agents & AI IDEs",
@@ -645,6 +645,26 @@
  "releases": [
   {
    "date": "2026-10-30",
+   "org": "Vercel",
+   "title": "agent-desktop: open-source computer use for any coding agent (macOS, Windows, Linux)",
+   "summary": "Vercel Labs launched agent-desktop, which it pitches as agent-browser for your whole computer. It reads a desktop app's real accessibility tree (instead of guessing from screenshots), returns it as JSON with a stable ref for every element, and lets any coding agent click, type, scroll and check the result, running in the background while you keep working, with parallel agents each getting their own cursor. It ships as a Rust CLI and a C library for macOS, Windows and Linux (npm install -g agent-desktop), contains no model of its own, and hands the web contents of Chromium and Electron apps to agent-browser. It can only see apps that expose an accessibility tree. Free and open source under Apache 2.0; v1.0 was tagged Oct 27 and announced Oct 30.",
+   "url": "https://github.com/vercel-labs/agent-desktop",
+   "type": "Dev tools",
+   "anchor": "rel-2026-10-30-vercel-agent-desktop-open-source-computer-use-for-any-coding",
+   "permalink": "https://dlee8484.github.io/loadout-rank/#rel-2026-10-30-vercel-agent-desktop-open-source-computer-use-for-any-coding"
+  },
+  {
+   "date": "2026-10-30",
+   "org": "SenseTime",
+   "title": "SenseNova-Loop-9B-Preview: open 9B looped multimodal model for agent work (Apache 2.0)",
+   "summary": "SenseTime open-sourced a 9B-parameter multimodal model (text and images in, text out) that runs a shared block of 24 decoder layers twice, so it gets a deeper compute path (about 14.6B inference parameters) without storing more weights, plus manifold-constrained hyper-connections (mHC) to route information between two residual streams. It was trained on contexts up to 262K tokens for long-document, coding, office and tool-using agent work. SenseTime-reported: 27B-class results, ahead of Qwen3.5-27B on WorkBuddy Bench, RaccoonPPT Bench and AutomationBench, and mHC added 4.42 points on GPQA Diamond. Weights are on Hugging Face and code on GitHub under Apache 2.0; it is a preview and the tech report is still to come. Benchmarks are SenseTime's own.",
+   "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B-Preview",
+   "type": "Model",
+   "anchor": "rel-2026-10-30-sensetime-sensenova-loop-9b-preview-open-9b-looped-multimodal-model-for",
+   "permalink": "https://dlee8484.github.io/loadout-rank/#rel-2026-10-30-sensetime-sensenova-loop-9b-preview-open-9b-looped-multimodal-model-for"
+  },
+  {
+   "date": "2026-10-30",
    "org": "Ramen",
    "title": "Aura Autopilot: open-source AI playtester for Unreal, Unity and Godot (Apache 2.0)",
    "summary": "Ramen, maker of the Aura game-dev agent, open-sourced an agent that plays your game in real time, learns it as it goes, and can be pointed at the exact system you want tested, from shooters and souls-likes to match-3, survival crafting, JRPGs and RTS games. It works with Unreal Engine, Unity and Godot on Windows and macOS, and runs on your existing Claude Code or Codex subscription or your own API key. Ramen-reported: in its whitepaper's seven-task test in one Unreal Engine 5.8 game, Autopilot passed all seven tasks and was 1.7x faster than Claude Code, which passed five. The code is on GitHub under Apache 2.0, and Autopilot is also included in an Aura subscription, which has a free trial. Pair it with Aura to build a feature and then have Autopilot playtest it.",
@@ -662,6 +682,16 @@
    "type": "Creative",
    "anchor": "rel-2026-10-30-the-biological-computing-co-tbc-mischief-1-a",
    "permalink": "https://dlee8484.github.io/loadout-rank/#rel-2026-10-30-the-biological-computing-co-tbc-mischief-1-a"
+  },
+  {
+   "date": "2026-10-29",
+   "org": "ElevenLabs",
+   "title": "ElevenLabs SFX v3: sound effects model that handles whole scenes in one prompt",
+   "summary": "ElevenLabs' newest text-to-sound-effects model follows prompts that describe several sounds at once more reliably (its example: a crowd cheering, a ball dropping and the same crowd booing), handles effects that include music and vocals better, and is less likely to produce harsh artifacts on gongs, chimes and whistles. ElevenLabs pitches it at video and game creators. ElevenLabs-reported: cleaner, more natural audio than SFX v2 in its benchmark testing (no scores published). Available now in ElevenCreative (Sound Effects, Flows, Studio) and the mobile app; in the API it is model eleven_text_to_sound_v3, but ElevenLabs' docs say API access is limited and may not be available in every region, and v2 stays the default. Claims are ElevenLabs' own.",
+   "url": "https://elevenlabs.io/blog/sound-effects-v3",
+   "type": "Creative",
+   "anchor": "rel-2026-10-29-elevenlabs-elevenlabs-sfx-v3-sound-effects-model-that",
+   "permalink": "https://dlee8484.github.io/loadout-rank/#rel-2026-10-29-elevenlabs-elevenlabs-sfx-v3-sound-effects-model-that"
   },
   {
    "date": "2026-10-29",
