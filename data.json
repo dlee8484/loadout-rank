@@ -1,5 +1,5 @@
 {
- "updated": "Oct 31, 2026",
+ "updated": "Nov 1, 2026",
  "tools": [
   {
    "cat": "Coding agents & AI IDEs",
@@ -643,6 +643,26 @@
   }
  ],
  "releases": [
+  {
+   "date": "2026-10-31",
+   "org": "DeepSeek",
+   "title": "dsh-superagent: open-source proactive coding agent prototype for DeepSeek Harness (MIT)",
+   "summary": "DeepSeek's Harness team open-sourced dsh-superagent, a coding agent that works for a whole team on one GitHub repository instead of one person at a keyboard. It listens to GitHub and, optionally, Feishu chats; when an allowed teammate asks for something, it opens a work item, does the job in its own agent session and folder, and answers in the original thread, for example with a pull request, while a web panel shows what still needs a person. Its stated rule is to take as little human attention as possible: it acts only when asked or when a rule the team wrote allows it. It ships as a bundle for DeepSeek Harness, and an agent walks you through setup. DeepSeek labels it a research prototype for reference only, not an official product, and says it differs from its internal version. Free under MIT; published Oct 31.",
+   "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+   "type": "Agents",
+   "anchor": "rel-2026-10-31-deepseek-dsh-superagent-open-source-proactive-coding-agent-prototype-for",
+   "permalink": "https://dlee8484.github.io/loadout-rank/#rel-2026-10-31-deepseek-dsh-superagent-open-source-proactive-coding-agent-prototype-for"
+  },
+  {
+   "date": "2026-10-30",
+   "org": "Google",
+   "title": "Gemini API Computer Use is now generally available",
+   "summary": "Google moved the Gemini API's Computer Use tool, which lets a model look at a screen and click, type and scroll to finish a task, out of preview to general availability on both the Interactions and GenerateContent APIs, so developers can build browser and desktop agents on it with production support. It follows Google's Oct 27 beta of gemini-api, a zero-dependency command-line client aimed at coding agents, scripts and CI pipelines. Google's release notes list no separate price change for the GA.",
+   "url": "https://ai.google.dev/gemini-api/docs/changelog",
+   "type": "Dev tools",
+   "anchor": "rel-2026-10-30-google-gemini-api-computer-use-is-now-generally",
+   "permalink": "https://dlee8484.github.io/loadout-rank/#rel-2026-10-30-google-gemini-api-computer-use-is-now-generally"
+  },
   {
    "date": "2026-10-30",
    "org": "Vercel",
