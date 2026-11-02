@@ -1,5 +1,5 @@
 {
- "updated": "Nov 1, 2026",
+ "updated": "Nov 2, 2026",
  "tools": [
   {
    "cat": "Coding agents & AI IDEs",
@@ -644,6 +644,16 @@
  ],
  "releases": [
   {
+   "date": "2026-11-01",
+   "org": "Meituan",
+   "title": "LongCat-2.5: native multimodal model for long-horizon agentic coding",
+   "summary": "Meituan's LongCat team introduced LongCat-2.5, a mixture-of-experts model with 1.6 trillion total parameters and about 48 billion active per token. It builds on LongCat-2.0 with stronger agentic coding, trained with large-scale reinforcement learning on long, multi-step engineering tasks such as building whole projects, and it reads images natively by turning them into tokens the same way it handles text, which the team says helps with visual coding, design and 3D tasks. Meituan's own benchmark table puts it close to recent frontier models on agent tests such as Terminal Bench and BrowseComp (self-reported). The launch post does not say where or how to use it, so check LongCat's site for access. Announced Nov 1.",
+   "url": "https://longcat.ai/blog/longcat-2.5",
+   "type": "Model",
+   "anchor": "rel-2026-11-01-meituan-longcat-2-5-native-multimodal-model-for-long-horizon-agentic",
+   "permalink": "https://dlee8484.github.io/loadout-rank/#rel-2026-11-01-meituan-longcat-2-5-native-multimodal-model-for-long-horizon-agentic"
+  },
+  {
    "date": "2026-10-31",
    "org": "DeepSeek",
    "title": "dsh-superagent: open-source proactive coding agent prototype for DeepSeek Harness (MIT)",
@@ -652,6 +662,26 @@
    "type": "Agents",
    "anchor": "rel-2026-10-31-deepseek-dsh-superagent-open-source-proactive-coding-agent-prototype-for",
    "permalink": "https://dlee8484.github.io/loadout-rank/#rel-2026-10-31-deepseek-dsh-superagent-open-source-proactive-coding-agent-prototype-for"
+  },
+  {
+   "date": "2026-10-30",
+   "org": "SEELE AI",
+   "title": "EVA01: open text-to-3D and image-to-3D game mesh generation (Apache 2.0)",
+   "summary": "SEELE AI released open weights for the generation side of EVA01, a native 3D model that turns a text prompt or a single image into a game-style 3D asset you can export as a GLB mesh. It runs locally on your own NVIDIA (CUDA) GPU through the OpenEVA code; there is no hosted demo for generation yet, and you have to download the frozen base models it plugs into (Qwen3-VL and TRELLIS) separately. SEELE has not published memory or speed numbers, so test it on your card first. The adapter is Apache 2.0, while the base models keep their own licenses. Weights posted Oct 30 on Hugging Face.",
+   "url": "https://huggingface.co/SEELE-AI/EVA01-Unified-All-Task-Generation",
+   "type": "Creative",
+   "anchor": "rel-2026-10-30-seele-ai-eva01-open-text-to-3d-and-image-to-3d-game",
+   "permalink": "https://dlee8484.github.io/loadout-rank/#rel-2026-10-30-seele-ai-eva01-open-text-to-3d-and-image-to-3d-game"
+  },
+  {
+   "date": "2026-10-30",
+   "org": "Third Intelligence",
+   "title": "Haas-ja-v1.0: fast open Japanese speech recognition model (Apache 2.0)",
+   "summary": "Japanese startup Third Intelligence released Haas-ja-v1.0, a 615.8-million-parameter speech-to-text model built only for Japanese. It is based on NVIDIA's Parakeet-TDT design and runs with NVIDIA NeMo. On the company's benchmark of five public Japanese datasets it is the most accurate open model they tested (6.12% character error rate) while staying fast, and they say it competes with major paid speech APIs at a fraction of the cost (self-reported). Weights are on Hugging Face under Apache 2.0, with inference code on GitHub and a free web demo. Released Oct 30.",
+   "url": "https://huggingface.co/third-intelligence/Haas-ja-v1.0",
+   "type": "Model",
+   "anchor": "rel-2026-10-30-third-intelligence-haas-ja-v1-0-fast-open-japanese-speech-recognition",
+   "permalink": "https://dlee8484.github.io/loadout-rank/#rel-2026-10-30-third-intelligence-haas-ja-v1-0-fast-open-japanese-speech-recognition"
   },
   {
    "date": "2026-10-30",
